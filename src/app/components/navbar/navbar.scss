@@ -24,20 +24,14 @@
       padding: 0;
 
       .trakan-logo {
+        height: 22rem;
+        margin: 1.2rem auto 0;
 
-        margin: 0 auto;
-        /*
-        transition:1s;
-        transform:scale(2) translate(0,0);
-
-        @media (max-width: $screen-sm-max) {
-          transition:1s;
-          transform:scale(1) translate(.5,.5);
+        @media(max-width: $screen-xs-max) {
+          height: 6rem;
+          margin: 6.2rem auto 0;
         }
-        */
-
       }
-
     }
 
     @media (max-width: $screen-xs-max) {
@@ -46,7 +40,6 @@
         font-size: 0; // hide the text so it doesn't wrap when the top collapses on small devices
       }
     }
-
   }
 
   .navbar-menu {
@@ -58,20 +51,38 @@
       font-size: 1.4rem;
       font-weight: 400;
       margin-right: .5rem;
+
+      @media (max-width: $screen-xxs-max) {
+        padding-top: .8rem
+      }
+    }
+
+    @media (max-width: $screen-xs-max) {
+      background-color: $client-primary;
     }
   }
 
   ul.main-nav {
-    display: inline-flex;
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
   .main-nav li {
-    padding: .5rem 3rem;
-    @media(max-width: $screen-sm-max) {
+    padding: .5rem 1.5rem;
+
+    @media(min-width: $screen-sm-min) {
       padding: .5rem 2rem;
+    }
+
+    @media(min-width: $screen-md-min) {
+      padding: .5rem 3rem;
+    }
+
+    @media (max-width: $screen-xxs-max) {
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
 
@@ -82,8 +93,10 @@
 
     color: $client-font-color-white;
 
-    @media (max-width: 500px) {
+    @media (max-width: $screen-xxs-max) {
       font-size: 0;
+      flex-grow: 1;
+      text-align: center;
     }
   }
 
@@ -94,5 +107,4 @@
     @include transition-fade;
     opacity: .8;
   }
-
 }

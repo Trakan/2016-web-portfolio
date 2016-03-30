@@ -14,15 +14,15 @@ body {
   background-color: $client-white;
 
   @media(max-width: $screen-xs-max) {
-    background-color: red; // todo - remove when nav finished
+    //background-color: red; // todo - remove when nav finished
   }
 
   @media(min-width: $screen-sm-min) {
-    background-color: blue; // todo - remove when nav finished
+   // background-color: blue; // todo - remove when nav finished
   }
 
   @media(min-width: $screen-md-min) and (max-width: $screen-md-max) {
-    background-color: gold; // todo - remove when nav finished
+   // background-color: gold; // todo - remove when nav finished
   }
 
   @extend .miketrakan;

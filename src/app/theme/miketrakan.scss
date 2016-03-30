@@ -67,6 +67,8 @@ $headings-color:          inherit !default;
 $min-height-container: 700px;
 $max-width-container: 1300px;
 
+$screen-xxs-max: 527px;
+
 // Extra small screen / phone
 //** Deprecated `$screen-xs` as of v3.0.1
 $screen-xs:                  0px !default;
