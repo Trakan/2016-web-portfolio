@@ -1,0 +1,71 @@
+.navbar {
+  @extend .miketrakan;
+
+  border: none;
+
+  .navbar-header {
+    background-color: $client-primary;
+    color: $client-font-color-white;
+    padding: 0;
+
+    h1 {
+      margin-bottom: 1.5rem;
+      text-transform: capitalize;
+    }
+
+    .navbar-brand {
+      z-index: 100;
+      margin: 0 !important;
+      padding: 0;
+
+      .trakan-logo {
+
+        margin: 0 auto;
+        /*
+        transition:1s;
+        transform:scale(2) translate(0,0);
+
+        @media (max-width: $screen-sm-max) {
+          transition:1s;
+          transform:scale(1) translate(.5,.5);
+        }
+        */
+
+      }
+
+    }
+
+  }
+
+  .navbar-menu {
+    background-color: $client-primary-dark;
+    padding: .5rem 0;
+  }
+
+  .main-nav {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-nav > li > a {
+    font-family: $font-family-base;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    color: $client-font-color-white;
+    padding: .5rem 4rem .5rem 1rem;
+  }
+
+  .main-nav > li > a:hover,
+  .main-nav > li > a:focus {
+    background-color: transparent;
+    text-decoration: none;
+    color: $client-yellow;
+  }
+
+  .main-nav > li > a:hover {
+    @include transition-fade;
+  }
+
+}

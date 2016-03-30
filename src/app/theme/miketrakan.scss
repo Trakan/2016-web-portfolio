@@ -4,9 +4,9 @@
 $client-white: #fff;
 $client-black: #0c120c;
 
-$client-primary-darker: #232c33;
-$client-primary-dark: #475c73;
-$client-primary: #eff1f7;
+$client-primary-dark: #232c33;
+$client-primary: #475c73;
+$client-primary-lite: #eff1f7;
 
 $client-gray-dark: #646a6f;
 $client-gray: #7d8c9c;
@@ -21,6 +21,10 @@ $client-red: #f46036;
 $client-yellow: #cfd186;
 // complimentary-gray 9B996B
 
+
+$client-font-color-white: $client-primary-lite;
+$client-font-color-black: $client-primary-dark;
+
 $body-bg: $client-white;
 
 
@@ -33,13 +37,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Rock+Salt|Titillium+Web
 $font-family-header: 'Rock Salt', cursive !default;
 $font-family-base: 'Titillium Web', sans-serif !default;
 
-$font-size-base:          16px !default;
+$font-size-base:          14px !default;
 $font-size-large:         18px !default;
 $font-size-small:         12px !default;
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default;
-$font-size-h2:            floor(($font-size-base * 2.15)) !default;
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default;
+$font-size-h1:            floor(($font-size-base * 1.7)) !default;
+$font-size-h2:            floor(($font-size-base * 1.5)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.35)) !default;
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default;
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default;
@@ -170,6 +174,7 @@ $container-lg:                 $container-large-desktop !default;
 //
 //##
 
+/*
 // Basics of a navbar
 $navbar-height:                    60px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
@@ -178,8 +183,8 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $client-primary-dark !default;
-$navbar-default-bg:                $client-primary !default;
+$navbar-default-color:             $client-primary !default;
+$navbar-default-bg:                $client-primary-dark !default;
 $navbar-default-border:            transparent !default;
 
 // Navbar links
@@ -192,16 +197,16 @@ $navbar-default-link-disabled-color:       lighten($navbar-default-link-color, 2
 //$navbar-default-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
-/*
 $navbar-default-brand-color:               #fff !default;
 $navbar-default-brand-hover-color:         #fff !default;
 $navbar-default-brand-hover-bg:            transparent !default;
-*/
+
 
 // Navbar toggle
 //$navbar-default-toggle-hover-bg:           $navbar-default-link-active-bg !default;
 $navbar-default-toggle-icon-bar-bg:        $navbar-default-link-color !default;
 $navbar-default-toggle-border-color:       transparent !default;
+*/
 
 /*
 //=== Inverted navbar
@@ -235,6 +240,8 @@ $navbar-inverse-toggle-border-color:        transparent !default;
 //##
 
 //=== Shared nav styles
+
+/*
 $nav-link-padding:                          10px 15px !default;
 $nav-link-hover-bg:                         $client-gray-lite !default;
 
@@ -257,5 +264,5 @@ $nav-tabs-justified-active-link-border-color:     $body-bg !default;
 $nav-pills-border-radius:                   $border-radius-base !default;
 $nav-pills-active-link-hover-bg:            $component-active-bg !default;
 $nav-pills-active-link-hover-color:         $component-active-color !default;
-
+*/
 

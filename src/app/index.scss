@@ -54,20 +54,63 @@
   text-transform: uppercase;
 }
 
+.handwriting {
+  font-family: $font-family-header;
+}
+
 
 // Navbar =====================================================================
+/*
+.navbar-inner-wrap {
+}
+
+.navbar-header {
+  background-color: $client-primary;
+  color: $client-font-color-white;
+
+  h1 {
+    margin-bottom: 15px;
+  }
+}
+
+.navbar-menu {
+  background-color: $client-primary-dark;
+  padding: 3px 0;
+}
+
+.navbar-brand {
+  z-index: 100;
+
+
+}
 
 .navbar {
   .nav > li > a {
     @extend .miketrakan;
+    font-family: $font-family-base;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    color: $client-font-color-white;
+    padding: 5px 40px 5px 10px;
   }
+
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    background-color: transparent;
+    color: $client-yellow;
+  }
+  .nav > li > a:hover {
+    @include transition-fade;
+  }
+
 
   &-form input,
   &-form .form-control {
     border: none;
   }
 }
-
+*/
 
 // Buttons ====================================================================
 
@@ -97,7 +140,7 @@
 // Forms ======================================================================
 
 // Navs =======================================================================
-
+/*
 .nav {
   @extend .miketrakan;
 
@@ -138,11 +181,12 @@
     border-color: transparent;
   }
 }
-
+*/
 
 // Indicators =================================================================
 
 //fixme - using?
+/*
 .alert {
 
   a,
@@ -154,10 +198,12 @@
 .tooltip {
   @extend .miketrakan;
 }
+*/
 
 // Progress bars ==============================================================
 
 //todo - phase 2
+/*
 .progress {
   border-radius: 1rem;
   background-color: $gray-light;
@@ -167,9 +213,17 @@
     @include box-shadow(none);
   }
 }
+*/
 
 // Containers =================================================================
 
+
+.max-container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+/*
 //todo - using these?
 .list-group {
   &-item {
@@ -202,6 +256,8 @@
     }
   }
 }
+*/
+
 
 
 /**

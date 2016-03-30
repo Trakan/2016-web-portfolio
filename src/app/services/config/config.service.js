@@ -21,7 +21,7 @@ export class ConfigService {
          },
 
          {
-           label: 'about',
+           label: 'bio',
            route: '/',
            active: true
          },
