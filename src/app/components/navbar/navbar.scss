@@ -1,6 +1,4 @@
 .navbar {
-  @extend .miketrakan;
-
   border: none;
 
   .navbar-header {
@@ -9,8 +7,15 @@
     padding: 0;
 
     h1 {
-      margin-bottom: 1.5rem;
+      letter-spacing: .05rem;
       text-transform: capitalize;
+      padding-left: 3.5rem;
+      margin-bottom: 1.5rem;
+
+      @media(max-width: $screen-sm-max) {
+        padding-left: 2rem;
+        font-size: 2rem;
+      }
     }
 
     .navbar-brand {
@@ -35,37 +40,59 @@
 
     }
 
+    @media (max-width: $screen-xs-max) {
+      margin-top: -6rem;
+      h1 {
+        font-size: 0; // hide the text so it doesn't wrap when the top collapses on small devices
+      }
+    }
+
   }
 
   .navbar-menu {
     background-color: $client-primary-dark;
-    padding: .5rem 0;
+    padding: 0;
+
+    i {
+      color: $client-font-color-white;
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-right: .5rem;
+    }
   }
 
-  .main-nav {
+  ul.main-nav {
     display: inline-flex;
     margin: 0;
     padding: 0;
+    list-style: none;
   }
 
-  .main-nav > li > a {
+  .main-nav li {
+    padding: .5rem 3rem;
+    @media(max-width: $screen-sm-max) {
+      padding: .5rem 2rem;
+    }
+  }
+
+  .main-nav a {
     font-family: $font-family-base;
-    font-weight: 700;
-    font-size: 1.6rem;
+    font-weight: 400;
+    font-size: 1.4rem;
 
     color: $client-font-color-white;
-    padding: .5rem 4rem .5rem 1rem;
+
+    @media (max-width: 500px) {
+      font-size: 0;
+    }
   }
 
-  .main-nav > li > a:hover,
-  .main-nav > li > a:focus {
+  .main-nav a:hover,
+  .main-nav a:focus {
     background-color: transparent;
     text-decoration: none;
-    color: $client-yellow;
-  }
-
-  .main-nav > li > a:hover {
     @include transition-fade;
+    opacity: .8;
   }
 
 }

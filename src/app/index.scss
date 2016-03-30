@@ -1,6 +1,3 @@
-
-
-
 // CUSTOM THEME
 @import "theme/miketrakan";
 
@@ -48,10 +45,9 @@
 
 
 .miketrakan {
-  font-size: 1.1rem;
-  line-height: 2.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
 }
 
 .handwriting {
@@ -219,7 +215,7 @@
 
 
 .max-container {
-  max-width: 130rem;
+  max-width: $max-width-container;
   margin: 0 auto;
 }
 
