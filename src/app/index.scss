@@ -1,0 +1,212 @@
+
+
+
+// CUSTOM THEME
+@import "theme/miketrakan";
+
+//$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* UTILITY */
+
+.no-pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+/* MIXINS */
+
+@mixin transition-grow {
+  transition: height 1s ease;
+}
+
+@mixin transition-fade {
+  transition: opacity .1s ease-in-out;
+  opacity: .5;
+}
+
+@mixin nav-indent-left {
+  margin-left: 1rem !important;
+}
+
+
+
+.miketrakan {
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+// Navbar =====================================================================
+
+.navbar {
+  .nav > li > a {
+    @extend .miketrakan;
+  }
+
+  &-form input,
+  &-form .form-control {
+    border: none;
+  }
+}
+
+
+// Buttons ====================================================================
+
+.btn {
+  border: none;
+  @extend .miketrakan;
+
+  &:hover {
+    border-color: transparent;
+  }
+
+  &-lg {
+    line-height: 2.6rem;
+  }
+
+  &-default {
+    &:hover {
+      background-color: $navbar-default-link-active-bg;
+    }
+  }
+}
+
+// Typography =================================================================
+
+// Tables =====================================================================
+
+// Forms ======================================================================
+
+// Navs =======================================================================
+
+.nav {
+  @extend .miketrakan;
+
+  .open > a,
+  .open > a:hover,
+  .open > a:focus {
+    border-color: $gray-light;
+  }
+}
+
+.nav-tabs {
+  & > li > a {
+    background-color: $gray-lighter;
+    border-color: $nav-tabs-border-color;
+    color: $gray;
+  }
+
+  > li.disabled > a:hover {
+    background-color: $gray-lighter;
+  }
+}
+
+.nav-pills {
+  a {
+    color: $gray;
+  }
+
+  li > a {
+    border: 1px solid transparent;
+  }
+
+  li.active > a,
+  li > a:hover {
+    border-color: $gray-light;
+  }
+
+  li.disabled > a {
+    border-color: transparent;
+  }
+}
+
+
+// Indicators =================================================================
+
+//fixme - using?
+.alert {
+
+  a,
+  .alert-link {
+    color: #fff;
+  }
+}
+
+.tooltip {
+  @extend .miketrakan;
+}
+
+// Progress bars ==============================================================
+
+//todo - phase 2
+.progress {
+  border-radius: 1rem;
+  background-color: $gray-light;
+  @include box-shadow(none);
+
+  &-bar {
+    @include box-shadow(none);
+  }
+}
+
+// Containers =================================================================
+
+//todo - using these?
+.list-group {
+  &-item {
+    padding: 1.6rem 2.4rem;
+  }
+}
+
+.well {
+  @include box-shadow(none);
+}
+
+.panel {
+  @include box-shadow(none);
+
+  .panel-heading,
+  .panel-title {
+    @extend .miketrakan;
+    color: #fff;
+  }
+
+  .panel-footer {
+    @extend .miketrakan;
+  }
+
+  &-default {
+    .panel-heading,
+    .panel-title,
+    .panel-footer {
+      color: $gray;
+    }
+  }
+}
+
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector

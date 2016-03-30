@@ -1,0 +1,141 @@
+<!doctype html>
+<html ng-app="uiMikeTrakan" ng-strict-di>
+  <head>
+    <meta charset="utf-8">
+    <title>Mike Trakan | Front-End Developer</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO - SEO -->
+    <meta name="description" content="">
+
+    <!-- fixme Place favicon.ico and apple-touch-icon.png in the root directory next to index.html-->
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body class="wrapper">
+    <!-- TODO - anything less than current IE, gets nasty message!! :) -->
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- TODO THIS - after scaffolding below is removed
+    <div ui-view></div>
+    -->
+
+
+    <!-- MAIN CONTENT -->
+
+
+      <header class="nav-content">
+
+        <nav class="navbar">
+          <div class="navbar-inner-wrap">
+
+            <div class="navbar-header col-xs-12">
+
+              <!-- branding -->
+              <a class="navbar-brand pull-left" href="http://www.trakan.com">
+                <img alt="Trakan" src="assets/svg/mike-trakan-logo.svg"/>
+              </a>
+
+              <!-- menu -->
+              <div class="container-fluid pull-left">
+                <ul class="nav navbar-nav">
+
+                  <!-- ng-repeat -->
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">Resume</a></li>
+
+                </ul>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+
+          </div>
+        </nav>
+
+      </header>
+
+
+
+      <main class="content">
+
+        <div class="portfolio-content">
+          CONTENT HERE TOO<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+          CONTENT HERE<br>
+        </div>
+
+      </main>
+
+      <!-- footer -->
+      <footer class="col-xs-12">
+        <div class="footer-nav container-fluid">
+
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-inline">
+              <li ng-repeat="link in MC.menuOptions.footer">
+                <a href="{{link.url}}" target="{{link.external==false ? '' : '_blank'}}" ng-bind="link.label"></a>
+              </li>
+              <li><a href="" target="_blank">&copy; Trakan</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </footer>
+
+
+
+
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp inject` to automatically populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- js files will be automatically insert here -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+
+  </body>
+</html>
