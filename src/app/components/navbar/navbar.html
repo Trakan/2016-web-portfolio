@@ -3,15 +3,15 @@
   <div class="navbar-header col-xs-12">
     <div class="max-container">
       <!-- branding -->
-      <a class="navbar-brand pull-left col-xs-3 col-sm-4" ui-sref="home">
+      <a class="navbar-brand col-xs-3 col-sm-4" ui-sref="home">
         <img alt="Trakan" class="trakan-logo" src="assets/svg/mike-trakan-logo.svg"/>
+        <h6 class="handwriting pull-left" ng-bind="ND.headerTitle"></h6>
       </a>
       <!-- page header -->
-      <h1 class="handwriting col-xs-9 col-sm-8">
-        Mike Trakan ... Front-End Dev
-      </h1>
+      <h1 class="handwriting col-xs-9 col-xs-offset-3 col-sm-8 col-sm-offset-4" ng-bind="ND.headerTitle"></h1>
       <div class="clearfix"></div>
     </div>
+    <div class="clearfix"></div>
   </div>
 
   <div class="navbar-menu col-xs-12">
@@ -25,7 +25,6 @@
           </a>
         </ul>
       </div>
-      <div class="clearfix"></div>
     </div>
   </div>
   <div class="clearfix"></div>

@@ -5,6 +5,8 @@ export class ConfigService {
 
     this.$log = $log;
 
+    this.TITLE = "Mike Trakan ... Front-End Dev";
+
     this.MENU_OPTS = {
 
        nav: [
