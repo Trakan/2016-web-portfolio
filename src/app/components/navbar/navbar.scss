@@ -12,7 +12,7 @@
       padding-left: 3.5rem;
       margin-bottom: 1.5rem;
 
-      @media(max-width: $screen-sm-max) {
+      @media (max-width: $screen-sm-max) {
         padding-left: 2rem;
         font-size: 2rem;
       }
@@ -20,14 +20,17 @@
 
     .navbar-brand {
       z-index: 100;
-      margin: 0 !important;
       padding: 0;
 
       .trakan-logo {
         height: 22rem;
         margin: 1.2rem auto 0;
 
-        @media(max-width: $screen-xs-max) {
+        @media (max-width: $screen-sm-max) {
+          height: 18rem;
+        }
+
+        @media (max-width: $screen-xs-max) {
           height: 6rem;
           margin: 6.2rem auto 0;
         }
@@ -72,11 +75,11 @@
   .main-nav li {
     padding: .5rem 1.5rem;
 
-    @media(min-width: $screen-sm-min) {
+    @media (min-width: $screen-sm-min) {
       padding: .5rem 2rem;
     }
 
-    @media(min-width: $screen-md-min) {
+    @media (min-width: $screen-md-min) {
       padding: .5rem 3rem;
     }
 

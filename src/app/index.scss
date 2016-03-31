@@ -54,60 +54,6 @@
   font-family: $font-family-header;
 }
 
-
-// Navbar =====================================================================
-/*
-.navbar-inner-wrap {
-}
-
-.navbar-header {
-  background-color: $client-primary;
-  color: $client-font-color-white;
-
-  h1 {
-    margin-bottom: 15px;
-  }
-}
-
-.navbar-menu {
-  background-color: $client-primary-dark;
-  padding: 3px 0;
-}
-
-.navbar-brand {
-  z-index: 100;
-
-
-}
-
-.navbar {
-  .nav > li > a {
-    @extend .miketrakan;
-    font-family: $font-family-base;
-    font-weight: 700;
-    font-size: 1.6rem;
-
-    color: $client-font-color-white;
-    padding: 5px 40px 5px 10px;
-  }
-
-  .nav > li > a:hover,
-  .nav > li > a:focus {
-    background-color: transparent;
-    color: $client-yellow;
-  }
-  .nav > li > a:hover {
-    @include transition-fade;
-  }
-
-
-  &-form input,
-  &-form .form-control {
-    border: none;
-  }
-}
-*/
-
 // Buttons ====================================================================
 
 .btn {
@@ -134,50 +80,6 @@
 // Tables =====================================================================
 
 // Forms ======================================================================
-
-// Navs =======================================================================
-/*
-.nav {
-  @extend .miketrakan;
-
-  .open > a,
-  .open > a:hover,
-  .open > a:focus {
-    border-color: $gray-light;
-  }
-}
-
-.nav-tabs {
-  & > li > a {
-    background-color: $gray-lighter;
-    border-color: $nav-tabs-border-color;
-    color: $gray;
-  }
-
-  > li.disabled > a:hover {
-    background-color: $gray-lighter;
-  }
-}
-
-.nav-pills {
-  a {
-    color: $gray;
-  }
-
-  li > a {
-    border: 1px solid transparent;
-  }
-
-  li.active > a,
-  li > a:hover {
-    border-color: $gray-light;
-  }
-
-  li.disabled > a {
-    border-color: transparent;
-  }
-}
-*/
 
 // Indicators =================================================================
 

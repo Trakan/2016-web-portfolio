@@ -4,14 +4,9 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'app/main/main.html',
-      controller: 'MainController',
-      controllerAs: 'MC',
-      resolve: {
-        resolvedImages: () => {
-          return {};
-        }
-      }
+      templateUrl: 'app/portfolio/portfolio.html',
+      controller: 'PortfolioController',
+      controllerAs: 'PC'
     });
 
   $urlRouterProvider.otherwise('/');

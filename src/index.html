@@ -29,106 +29,28 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- TODO THIS - after scaffolding below is removed
-    <div ui-view></div>
-    -->
+    <header class="nav-content">
+       <navbar></navbar>
+    </header>
 
+    <main class="content">
+      <div ui-view></div>
+    </main>
 
-    <!-- MAIN CONTENT -->
+    <footer class="col-xs-12">
+      <div class="footer-nav max-container">
 
-
-      <header class="nav-content">
-
-        <nav class="navbar">
-
-
-            <div class="navbar-header col-xs-12">
-              <div class="max-container">
-                <!-- branding -->
-                <a class="navbar-brand pull-left col-xs-3 col-sm-4" href="http://www.trakan.com">
-                  <img alt="Trakan" class="trakan-logo" src="assets/svg/mike-trakan-logo.svg"/>
-                </a>
-                <!-- page header -->
-                <h1 class="handwriting col-xs-9 col-sm-8">Mike Trakan ... Front-End Dev</h1>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-
-            <div class="navbar-menu col-xs-12">
-              <div class="max-container">
-                <!-- menu -->
-                <div class="col-xs-9 col-xs-offset-3 col-sm-8 col-sm-offset-4">
-                  <ul class="main-nav">
-                    <!-- ng-repeat -->
-                    <a href=""><li><i class="fa fa-briefcase"></i>Portfolio</li></a>
-                    <a href=""><li><i class="fa fa-file-text"></i>Resume</li></a>
-                    <a href=""><li><i class="fa fa-user"></i>Bio</li></a>
-                    <a href=""><li><i class="fa fa-envelope"></i>Contact</li></a>
-                  </ul>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-
-
-
-            <div class="clearfix"></div>
-
-        </nav>
-
-      </header>
-
-
-
-      <main class="content">
-
-        <div class="portfolio-content max-container">
-          CONTENT HERE TOO<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
-          CONTENT HERE<br>
+        <div class="col-xs-12 col-sm-6">
+          <ul class="list-inline">
+            <li ng-repeat="link in PC.menuOptions.footer">
+              <a href="{{link.url}}" target="{{link.external==false ? '' : '_blank'}}" ng-bind="link.label"></a>
+            </li>
+            <li><a href="" target="_blank">&copy; Trakan</a></li>
+          </ul>
         </div>
-
-      </main>
-
-      <!-- footer -->
-      <footer class="col-xs-12">
-        <div class="footer-nav max-container">
-
-          <div class="col-xs-12 col-sm-6">
-            <ul class="list-inline">
-              <li ng-repeat="link in MC.menuOptions.footer">
-                <a href="{{link.url}}" target="{{link.external==false ? '' : '_blank'}}" ng-bind="link.label"></a>
-              </li>
-              <li><a href="" target="_blank">&copy; Trakan</a></li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-      </footer>
-
-
-
+        <div class="clearfix"></div>
+      </div>
+    </footer>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
@@ -145,7 +67,6 @@
     <!-- angular templates will be automatically converted in js and inserted here -->
     <!-- endinject -->
     <!-- endbuild -->
-
 
   </body>
 </html>

@@ -10,26 +10,23 @@ export class ConfigService {
        nav: [
          {
            label: 'portfolio',
-           route: '/',
-           active: true
+           route: 'home',
+           icon: 'fa-briefcase'
          },
-
          {
            label: 'resume',
-           route: '/',
-           active: true
+           route: 'resume',
+           icon: 'fa-file-text'
          },
-
          {
            label: 'bio',
-           route: '/',
-           active: true
+           route: 'bio',
+           icon: 'fa-user'
          },
-
          {
            label: 'contact',
-           route: '/',
-           active: true
+           route: 'contact',
+           icon: 'fa-envelope'
          }
        ],
 

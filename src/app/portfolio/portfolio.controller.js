@@ -1,7 +1,7 @@
-export class MainController {
+export class PortfolioController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, $stateParams, ConfigService) {
+  constructor ($log, $state, $stateParams) {
     'ngInject';
 
     this.$log = $log;
@@ -12,9 +12,6 @@ export class MainController {
 
     // CUSTOM SERVICES
     //this.$Data = DataService;
-
-    // CONFIGS
-    this.menuOptions = ConfigService.MENU_OPTS;
 
     // STATE VARS
     this.isLoading = false;
