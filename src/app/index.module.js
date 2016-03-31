@@ -12,6 +12,7 @@ import { ConfigService } from '../app/services/config/config.service';
 
 // directives
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
+import { FootNavDirective } from '../app/components/footnav/footnav.directive';
 
 // TODO - remove any bower components we anticipated that we don't end up using, in the end
 angular.module('uiMikeTrakan', [
@@ -34,4 +35,5 @@ angular.module('uiMikeTrakan', [
   .controller('PortfolioController', PortfolioController)
 
   .directive('navbar', NavbarDirective)
+  .directive('footnav', FootNavDirective)
 ;

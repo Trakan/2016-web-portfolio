@@ -1,0 +1,24 @@
+footer {
+  background-color: $client-primary;
+  color: $client-white;
+  padding: 2rem 0;
+
+  .footer-nav {
+    ul {
+      @include nav-indent-left;
+    }
+  }
+
+  a, a:visited, a:focus, a:active {
+    color: $client-white;
+  }
+
+  a:hover {
+    color: lighten($client-gray, 38%);
+  }
+
+  .btn {
+    margin-left: 1rem;
+    font-family: $font-family-sans-serif;
+  }
+}

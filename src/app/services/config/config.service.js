@@ -47,6 +47,11 @@ export class ConfigService {
           external: true
         },
         {
+          label: 'Meetups',
+          url: 'http://www.trakan.com',
+          external: true
+        },
+        {
           label: 'Contact',
           url: 'http://www.trakan.com',
           external: true
