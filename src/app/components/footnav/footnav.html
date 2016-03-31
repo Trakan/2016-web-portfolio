@@ -2,9 +2,10 @@
   <div class="col-xs-12 col-sm-6">
     <ul class="list-inline">
       <li ng-repeat="link in FND.footerMenuOptions">
-        <a href="{{link.url}}" target="{{link.external==false ? '' : '_blank'}}" ng-bind="link.label"></a>
+        <a ng-if="link.url" href="{{link.url}}" target="_blank" ng-bind="link.label"></a>
+        <a ng-if="link.state" ui-sref="{{link.state}}" ng-bind="link.label"></a>
       </li>
-      <li><a href="" target="_blank">&copy; Trakan</a></li>
+      <li><a ui-sref="home">&copy; Mike Trakan</a></li>
     </ul>
   </div>
   <div class="clearfix"></div>

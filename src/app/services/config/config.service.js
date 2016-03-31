@@ -33,28 +33,25 @@ export class ConfigService {
       footer: [
         {
           label: 'Twitter',
-          url: 'http://www.trakan.com',
-          external: true
+          url: 'https://twitter.com/miketrakan'
         },
         {
           label: 'Github',
-          url: 'http://www.trakan.com',
-          external: true
+          url: 'https://github.com/Trakan'
         },
+        /*
         {
           label: 'Codedrops',
-          url: 'http://www.trakan.com',
-          external: true
+          url: 'http://www.trakan.com'
         },
+        */
         {
           label: 'Meetups',
-          url: 'http://www.trakan.com',
-          external: true
+          url: 'http://www.meetup.com/members/54405852/'
         },
         {
           label: 'Contact',
-          url: 'http://www.trakan.com',
-          external: true
+          state: 'home'
         }
       ]
     };
