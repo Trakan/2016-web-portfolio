@@ -1,30 +1,22 @@
 export class PortfolioController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, $stateParams) {
+  constructor ($log, $state, DataService) {
     'ngInject';
 
     this.$log = $log;
 
     // UI ROUTER
     this.$state = $state;
-    this.$stateParams = $stateParams;
 
     // CUSTOM SERVICES
-    //this.$Data = DataService;
+    this.$Data = DataService;
 
     // STATE VARS
     this.isLoading = false;
 
-
-    /** HELPER FUNCTION **/
-    //helper function to replicate 'for loop' in views' ng-repeats
-    // TODO - move this to a utility library?
-    /*
-    this.forLoop = (num) => {
-      return new Array(num);
-    };
-    */
+    // DATA
+    this.content = {};
 
     /** INIT APP **/
     this.initView();
@@ -33,11 +25,17 @@ export class PortfolioController {
 
 
   loadView() {
-    this.$log.debug('init PORTFOLIO');
+    let that = this;
+
+    // use callback to handle async response
+    this.$Data.getData('portfolio', function(response) {
+      that.content = response;
+      that.$log.debug('init PORTFOLIO', that.content);
+    });
   }
 
-  initView() {
 
+  initView() {
     switch (this.$state.current.name) {
       case 'home':
         this.loadView();

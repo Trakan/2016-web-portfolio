@@ -1,30 +1,22 @@
 export class ResumeController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, $stateParams) {
+  constructor ($log, $state, DataService) {
     'ngInject';
 
     this.$log = $log;
 
     // UI ROUTER
     this.$state = $state;
-    this.$stateParams = $stateParams;
 
     // CUSTOM SERVICES
-    //this.$Data = DataService;
+    this.$Data = DataService;
 
     // STATE VARS
     this.isLoading = false;
 
-
-    /** HELPER FUNCTION **/
-    //helper function to replicate 'for loop' in views' ng-repeats
-    // TODO - move this to a utility library?
-    /*
-     this.forLoop = (num) => {
-     return new Array(num);
-     };
-     */
+    // DATA
+    this.content = {};
 
     /** INIT APP **/
     this.initView();
@@ -33,11 +25,17 @@ export class ResumeController {
 
 
   loadView() {
-    this.$log.debug('init RESUME');
+    let that = this;
+
+    // use callback to handle async response
+    this.$Data.getData('resume', function(response) {
+      that.content = response;
+      that.$log.debug('init RESUME', that.content);
+    });
   }
 
-  initView() {
 
+  initView() {
     switch (this.$state.current.name) {
       case 'resume':
         this.loadView();
