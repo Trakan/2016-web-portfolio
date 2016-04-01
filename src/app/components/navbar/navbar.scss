@@ -23,9 +23,11 @@
       z-index: 100;
       padding: 0;
 
+      // TODO - create hat logo with path for band
       .trakan-logo {
         height: 22rem;
         margin: 1.2rem auto 0;
+        transition: all .1s ease-in-out;
 
         @media (max-width: $screen-sm-max) {
           height: 18rem;
