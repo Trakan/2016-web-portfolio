@@ -5,7 +5,7 @@ import { config } from './app.config';
 import { routerConfig } from './app.route';
 
 // make angular aware of controller modules
-import { PortfolioController } from './portfolio/portfolio.controller';
+import { PortfolioController } from './views/portfolio/portfolio.controller';
 
 // services
 import { ConfigService } from '../app/services/config/config.service';

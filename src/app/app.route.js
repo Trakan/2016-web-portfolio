@@ -4,7 +4,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'app/portfolio/portfolio.html',
+      templateUrl: 'app/views/portfolio/portfolio.html',
       controller: 'PortfolioController',
       controllerAs: 'PC'
     });
