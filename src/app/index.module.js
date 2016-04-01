@@ -6,11 +6,14 @@ import { routerConfig } from './app.route';
 
 // make angular aware of controller modules
 import { PortfolioController } from './views/portfolio/portfolio.controller';
+import { ContactController } from './views/contact/contact.controller';
+import { BioController } from './views/bio/bio.controller';
+import { ResumeController } from './views/resume/resume.controller';
 
 // services
 import { ConfigService } from '../app/services/config/config.service';
 
-// directives
+// directives/components
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { FootNavDirective } from '../app/components/footnav/footnav.directive';
 
@@ -33,6 +36,9 @@ angular.module('uiMikeTrakan', [
   .service('ConfigService', ConfigService)
 
   .controller('PortfolioController', PortfolioController)
+  .controller('ContactController', ContactController)
+  .controller('BioController', BioController)
+  .controller('ResumeController', ResumeController)
 
   .directive('navbar', NavbarDirective)
   .directive('footnav', FootNavDirective)

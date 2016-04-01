@@ -1,4 +1,4 @@
-export class PortfolioController {
+export class ContactController {
 
   // controller written as a controller function, exported as ES6 module
   constructor ($log, $state, $stateParams) {
@@ -21,10 +21,10 @@ export class PortfolioController {
     //helper function to replicate 'for loop' in views' ng-repeats
     // TODO - move this to a utility library?
     /*
-    this.forLoop = (num) => {
-      return new Array(num);
-    };
-    */
+     this.forLoop = (num) => {
+     return new Array(num);
+     };
+     */
 
     /** INIT APP **/
     this.initView();
@@ -33,13 +33,13 @@ export class PortfolioController {
 
 
   loadView() {
-    this.$log.debug('init PORTFOLIO');
+    this.$log.debug('init CONTACT');
   }
 
   initView() {
 
     switch (this.$state.current.name) {
-      case 'home':
+      case 'contact':
         this.loadView();
         break;
     }
