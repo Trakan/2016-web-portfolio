@@ -6,9 +6,8 @@ export class ConfigService {
     this.$log = $log;
 
     this.TITLE = "Mike Trakan ... Front-End Dev";
-
+    this.WELCOME = "Chicago-based front-end web dev specializing in JavaScript apps.  Travels with lotsa UX and design love.  And a bottle of home-brewed hotsauce ... Just in case.";
     this.MENU_OPTS = {
-
        nav: [
          {
            label: 'portfolio',
@@ -20,11 +19,13 @@ export class ConfigService {
            route: 'resume',
            icon: 'fa-file-text'
          },
+         /* TODO - add these pages phase 2 ,
          {
            label: 'bio',
            route: 'bio',
            icon: 'fa-user'
          },
+         */
          {
            label: 'contact',
            route: 'contact',
@@ -33,10 +34,12 @@ export class ConfigService {
        ],
 
       footer: [
+        /*
         {
           label: 'Twitter',
           url: 'https://twitter.com/miketrakan'
         },
+        */
         {
           label: 'Github',
           url: 'https://github.com/Trakan'
@@ -50,14 +53,15 @@ export class ConfigService {
         {
           label: 'Meetups',
           url: 'http://www.meetup.com/members/54405852/'
-        },
+        }
+        /*,
         {
           label: 'Contact',
           state: 'home'
         }
+        */
       ]
     };
 
   } //<-- End of Constructor
-
 }
