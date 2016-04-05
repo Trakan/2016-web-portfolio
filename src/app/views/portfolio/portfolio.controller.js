@@ -30,7 +30,7 @@ export class PortfolioController {
     // use callback to handle async response
     this.$Data.getData('portfolio', function(response) {
       that.content = response;
-      that.$log.debug('init PORTFOLIO', that.content);
+      that.$log.debug('init CONTACT', that.content);
     });
   }
 

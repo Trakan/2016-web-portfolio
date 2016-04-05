@@ -11,14 +11,14 @@
             "what": "ReactJS app that maps the restaurants Caxy employees frequent.  With funny reviews added by colleagues.",
             "roles": "JS, UI/UX, Hunger, Initiative",
             "techs": [
-              { "tech": "ReactJS", "url": "https://facebook.github.io/react/" },
-              { "tech": "ES2015 (Babel)", "url": "https://babeljs.io/docs/learn-es2015/" },
-              { "tech": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "tech": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "tech": "Sass", "url": "http://sass-lang.com/" },
-              { "tech": "Gulp", "url": "http://gulpjs.com/" },
-              { "tech": "OpenStreetMap", "url": "https://www.openstreetmap.org" },
-              { "tech": "Leaflet", "url": "http://leafletjs.com/" }
+              { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
+              { "name": "ES2015 (Babel)", "url": "https://babeljs.io/docs/learn-es2015/" },
+              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
+              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
+              { "name": "Sass", "url": "http://sass-lang.com/" },
+              { "name": "Gulp", "url": "http://gulpjs.com/" },
+              { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org" },
+              { "name": "Leaflet", "url": "http://leafletjs.com/" }
             ],
             "memories": [
               "Collaborating with a cool designer on UI/UX",
@@ -34,13 +34,13 @@
             "what": "Elastic search interface for a popular game that teaches kids how to use the stock market",
             "roles": "JS, UI, Front-End Leadership, Elasticity",
             "techs": [
-              { "tech": "Angular 1.x", "url": "https://angularjs.org/" },
-              { "tech": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "tech": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "tech": "Sass", "url": "http://sass-lang.com/" },
-              { "tech": "Bootstrap 3", "url": "http://getbootstrap.com/" },
-              { "tech": "Gulp", "url": "http://gulpjs.com/" },
-              { "tech": "Elastic UI", "url": "http://www.elasticui.com/" }
+              { "name": "Angular 1.x", "url": "https://angularjs.org/" },
+              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
+              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
+              { "name": "Sass", "url": "http://sass-lang.com/" },
+              { "name": "Bootstrap 3", "url": "http://getbootstrap.com/" },
+              { "name": "Gulp", "url": "http://gulpjs.com/" },
+              { "name": "Elastic UI", "url": "http://www.elasticui.com/" }
             ],
             "memories": [
               "Being a key member of crack agile team that turned this out quickly",
@@ -56,13 +56,13 @@
             "what": "Monster form wizard that registers kids and teachers for a popular classroom stock market game",
             "roles": "JS, UI/UX, Persistance, Agility",
             "techs": [
-              { "tech": "Angular 1.x", "url": "https://angularjs.org/" },
-              { "tech": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "tech": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "tech": "Sass", "url": "http://sass-lang.com/" },
-              { "tech": "Bootstrap 3", "url": "http://getbootstrap.com/" },
-              { "tech": "Grunt", "url": "http://gruntjs.com/" },
-              { "tech": "oAuth", "url": "http://oauth.net/" }
+              { "name": "Angular 1.x", "url": "https://angularjs.org/" },
+              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
+              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
+              { "name": "Sass", "url": "http://sass-lang.com/" },
+              { "name": "Bootstrap 3", "url": "http://getbootstrap.com/" },
+              { "name": "Grunt", "url": "http://gruntjs.com/" },
+              { "name": "oAuth", "url": "http://oauth.net/" }
             ],
             "memories": [
               "Maybe the most complicated thing I’ve ever helped build",
@@ -78,14 +78,14 @@
             "what": "A website for an awesome local Chicago musician.",
             "roles": "Design, UI/UX, Music &amp; Lyrics, Suspect Acting Skill",
             "techs": [
-              { "tech": "ReactJS", "url": "https://facebook.github.io/react/" },
-              { "tech": "ES2015 (Babel)", "url": "https://babeljs.io/docs/learn-es2015/" },
-              { "tech": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "tech": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "tech": "Sass", "url": "http://sass-lang.com/" },
-              { "tech": "Gulp", "url": "http://gulpjs.com/" },
-              { "tech": "OpenStreetMap", "url": "https://www.openstreetmap.org" },
-              { "tech": "Leaflet", "url": "http://leafletjs.com/" }
+              { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
+              { "name": "ES2015 (Babel)", "url": "https://babeljs.io/docs/learn-es2015/" },
+              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
+              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
+              { "name": "Sass", "url": "http://sass-lang.com/" },
+              { "name": "Gulp", "url": "http://gulpjs.com/" },
+              { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org" },
+              { "name": "Leaflet", "url": "http://leafletjs.com/" }
             ],
             "memories": [
               "First dive into handcoding an HTML5/CSS3 site with responsive grids and all",
