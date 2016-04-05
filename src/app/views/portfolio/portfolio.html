@@ -13,7 +13,7 @@
 
         <!-- screenshot -->
         <a ng-href="{{item.url}}" target="_blank">
-          <div>
+          <div class="portfolio-thumb">
             <img alt="{{item.name}}" ng-src="{{item.thumb}}"/>
             <!-- project name -->
             <h2 ng-bind="item.name"></h2>
@@ -36,9 +36,9 @@
           <!-- technologies used -->
           <div>
             <h4>Stuff I used:</h4>
-        <span class="span-list" ng-repeat="tech in item.techs">
-          <a ng-href="{{tech.url}}" ng-bind="tech.name" target="_blank"></a>
-        </span>
+            <span class="span-list" ng-repeat="tech in item.techs">
+              <a ng-href="{{tech.url}}" ng-bind="tech.name" target="_blank"></a>
+            </span>
           </div>
 
           <!-- reflections -->
@@ -57,10 +57,12 @@
 
   <!-- LOGOS OF PAST JOBS-->
   <!-- TODO - add recor, northwestern-->
-  <p class="h1" ng-bind="PVC.content.past.headline"></p>
+  <h1 class="handwriting" ng-bind="PVC.content.past.headline"></h1>
 
-  <a ng-repeat="place in PVC.content.past.places" ng-href="place.url" target="_blank">
-    <img alt="{{place.name}}" ng-src="{{place.thumb}}"/>
-  </a>
+  <div class="portfolio-wrap old-logos">
+    <a ng-repeat="place in PVC.content.past.places" ng-href="{{place.url}}" target="_blank">
+      <img alt="{{place.name}}" ng-src="{{place.thumb}}"/>
+    </a>
+  </div>
 
 </section>
