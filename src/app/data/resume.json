@@ -1,0 +1,239 @@
+[
+  {
+    "experience": {
+      "header": "",
+      "items": [
+        {
+          "company": {
+            "name": "Caxy Interactive",
+            "dates": "2014 - 2016",
+            "title": "Lead Front-End Developer (JavaScript Web Applications)",
+            "url": ""
+          },
+          "roles": [
+            "Cutting-edge JavaScripting;  Two years building enterprise web applications and marketing sites with AngularJS 1.x, ReactJS, and many associated tools and libraries (ECMAScript 5 and ES2015)",
+            "Worked with PHP team designing APIs and handling asynchronous responses with promises",
+            "Achieved high level of expertise with CSS3/SASS to bring designs to life.  Increasingly-proficient design chops; Comfortable designing in-browser or working from whiteboard sketches if needed",
+            "Daily participation on jelled multi-disciplinary agile teams, providing front-end, UX/IA, and design contributions across all stages of development, from planning/pointing to development/delivery ",
+            "Promoted to front-end leadership after first performance review.  Regularly invited to participate in groups that helped guide the company's evolution with agile/scrum, UX, and development"
+          ]
+        },
+        {
+          "company": {
+            "name": "SpatialPoint, LLC",
+            "dates": "2012 - 2013",
+            "title": "Software Developer (JavaScript Web Applications)",
+            "url": ""
+          },
+          "roles": [
+            "Helped a small GIS team build MVC JavaScript web application demos for the telecommunications industry using Sencha's ExtJS framework and the Bing Maps API"
+          ]
+        },
+        {
+          "company": {
+            "name": "Arc Technology Group",
+            "dates": "2011-2012",
+            "title": "Web Developer (Front-End)",
+            "url": ""
+          },
+          "roles": [
+            "Emerged as front-end specialist on a waterfall team, providing custom jQuery components, Joomla 2.x templates, and customized administration interfaces for several MySQL back-ends ",
+            "Took ownership of content inventories and helped coordinate front-end efforts with project managers and designers, eventually authoring specifications and performing client-facing tasks",
+            "Through our team's efforts, the company reported a 40% profit growth, best in company history"
+          ]
+        },
+        {
+          "company": {
+            "name": "Tutor/Mentor Connection",
+            "dates": "2008 - 2011",
+            "title": "GIS Specialist",
+            "url": ""
+          },
+          "roles": [
+            "Merged design and GIS skills to develop strategy maps for a student-based non-profit",
+            "Wore several leadership hats: organizer for a successful benefit concert fund-raiser, curator of a public map gallery, and volunteer teacher for the program's 10th grade Tech Club"
+          ]
+        },
+        {
+          "company": {
+            "name": "Al Raby High School",
+            "dates": "2006-2008",
+            "title": "Teacher, Volunteer Tutor",
+            "url": ""
+          },
+          "roles": [
+            "Developed philosophies on leadership and social behavior while pursuing Education degree and while teaching/tutoring high school students in a west-side Chicago Public School"
+          ]
+        },
+        {
+          "company": {
+            "name": "Marsh USA (CS STARS)",
+            "dates": "2004 - 2005",
+            "title": "Custom VB Plug-in Developer",
+            "url": ""
+          },
+          "roles": [
+            "Built and maintained custom Visual Basic plug-ins in a multinational corporate environment"
+          ]
+        },
+        {
+          "company": {
+            "name": "STATS, Inc",
+            "dates": "2000 - 2004",
+            "title": "Database Programmer, Web Developer",
+            "url": ""
+          },
+          "roles": [
+            "Received formal SQL training; Two-years developing PL/SQL programs to process real-time NFL game day data, while simultaneously converting legacy NFL data to Oracle 9i",
+            "Worked another two years in STATSí fantasy sports department, developing web applications and user interfaces, using old-school HTML, ASP, and ODBC"
+          ]
+        },
+        {
+          "company": {
+            "name": "Recor Corporation",
+            "dates": "todo",
+            "title": "todo",
+            "url": "http://www.recor.com"
+          },
+          "roles": [
+            ""
+          ]
+        },
+        {
+          "company": {
+            "name": "Vitruvian",
+            "dates": "todo",
+            "title": "todo",
+            "url": "todo"
+          },
+          "roles": [
+            ""
+          ]
+        },
+        {
+          "company": {
+            "name": "Freelance",
+            "dates": "todo",
+            "title": "todo",
+            "url": "todo"
+          },
+          "roles": [
+            ""
+          ]
+        }
+      ]
+    },
+
+    "techs": {
+      "header": "Core Technology, Tools and Software Experience",
+      "items": [
+        {
+          "subhead":"JavaScript",
+          "desc": "ES5, ES2015 (Babel);  MV* Frameworks (AngularJS 1.x);  Libraries (jQuery 1.x/2.x, ReactJS, Underscore);  Mobile (Ionic 1.x)"
+        },
+        {
+          "subhead":"HTML5/CSS3",
+          "desc": "Handcoded HTML5/CSS3;  Precompilers (Sass);  UI/Responsive Frameworks (Bootstrap 3.x, Material Design)"
+        },
+        {
+          "subhead":"Web Services",
+          "desc": "Asynchronous Requests/Responses (AJAX, Callbacks, Promises);  REST;  API/Endpoint Design;  JSON;  XML"
+        },
+        {
+          "subhead":"Databases",
+          "desc": "MySQL 5.x;  MongoDB/NoSQL;  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema Design;  Real-Time Data"
+        },
+        {
+          "subhead":"Testing, Code Quality",
+          "desc": "Runners/Frameworks (Karma, Jasmine, Selenium);  ESLint;  W3C validators;  Browser Debugging;  Cross-Browser Testing"
+        },
+        {
+          "subhead":"Project Tools",
+          "desc": "Package Managers (Bower, npm, Homebrew);  Task Runners (Gulp, Grunt);  Version Control (Git, GitHub)"
+        },
+        {
+          "subhead":"Design/Creative",
+          "desc": "Adobe CC 2015 (Photoshop, Illustrator);  SVG;  Prototypes;  Marketing Materials;  Music/Video Production"
+        },
+        {
+          "subhead":"GIS",
+          "desc": "todo"
+        },
+        {
+          "subhead":"CMS",
+          "desc": "todo"
+        },
+        {
+          "subhead":"Audio",
+          "desc": "todo"
+        }
+      ]
+    },
+
+    "soft": {
+      "header": "Soft Skills",
+      "items": [
+        {
+          "subhead": "Learning",
+          "desc": "Quickly learned Angular, React, and other modern technologies as needed, in agency-paced environment at Caxy"
+        },
+        {
+          "subhead": "Agile Teamwork",
+          "desc": "Strong attention to agile processes;  Self-monitoring if required but a versatile, reliable team-player at heart;  Knows role"
+        },
+        {
+          "subhead": "Communication",
+          "desc": "Prizes mutual respect, trust, and face-to-face discussion;  Not afraid to give honest, direct feedback if asked"
+        },
+        {
+          "subhead": "Leadership",
+          "desc": "Experience consulting, training, and mentoring;  Graduate degree in education;  Strong belief in lead by example"
+        }
+      ]
+    },
+
+    "indie": {
+      "header": "Multimedia and Marketing",
+      "items": [
+        {
+          "desc": "Independently wrote, produced and promoted two full-length CDs, released in 2007 and 2012",
+          "experience": [
+            "<strong>Technology:</strong>  Sound Production;  Audio Engineering/Mastering;  Video Production",
+            "<strong>Design:</strong>  Marketing Materials (Logos, Posters, Press Releases);  CD Production Templates",
+            "<strong>Marketing/Leadership:</strong>  Social Media;  Editorial Calendars;  Media Outreach;  Artist Management"
+          ]
+        }
+      ]
+    },
+
+    "education": {
+      "header": "",
+      "items": [
+        {
+          "degree": "Master of Education",
+          "description": "Teaching and Learning:  Secondary Social Studies, Technology",
+          "awarder": "DePaul University",
+          "location": "Chicago, IL"
+        },
+        {
+          "degree": "Bachelor of Arts",
+          "description": "International Relations, French",
+          "awarder": "University of Wisconsin",
+          "location": "Madison, WI"
+        }
+      ]
+    },
+
+    "certs": {
+      "header": "Training/Certifications",
+      "items": [
+        {
+          "description": "Object Oriented Design and Development Certificate",
+          "awarder": "Loyola University",
+          "location": "Chicago, IL"
+        }
+      ]
+    }
+
+  }
+]
