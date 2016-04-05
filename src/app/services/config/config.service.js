@@ -5,8 +5,8 @@ export class ConfigService {
 
     this.$log = $log;
 
-    this.TITLE = "Mike Trakan ... Front-End Dev";
-    this.WELCOME = "Chicago-based front-end web dev specializing in JavaScript apps.  Travels with lotsa UX and design love.  And a bottle of home-brewed hotsauce ... Just in case.";
+    this.TITLE = "Mike Trakan";
+
     this.MENU_OPTS = {
        nav: [
          {

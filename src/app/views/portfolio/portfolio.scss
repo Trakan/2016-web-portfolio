@@ -1,0 +1,28 @@
+.portfolio-content {
+
+  article {
+    padding: 2rem 0 4rem;
+    text-align: center;
+
+    img {
+      width: 50rem;
+    }
+
+    h2, h4 {
+      font-weight: 700;
+    }
+
+    .project-description {
+      text-align: left;
+      padding: 0 6rem;
+
+      div {
+        margin-bottom: 2rem;
+      }
+
+      p {
+        margin-left: .5rem;
+      }
+    }
+  }
+}

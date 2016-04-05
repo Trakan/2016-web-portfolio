@@ -1,14 +1,18 @@
 [
   {
+    "greetings": [
+      "Chicago-based front-end web dev, specializing in JavaScript apps",
+      "Travels with lots of UX and design love<br>(And a bottle of home-brewed hotsauce ... Just in case)"
+    ],
     "featured": {
-      "headline": "Things I've helped build the past year or so",
+      "headline": "Things I've helped build the past year or so:",
       "projects":
         [
           {
             "name": "Caxy's Hungry Games",
             "url": "http://thehungrygames.io/",
             "thumb": "../assets/images/screen/hungry.jpg",
-            "what": "ReactJS app that maps the restaurants Caxy employees frequent.  With funny reviews added by colleagues.",
+            "what": "ReactJS app that maps/reviews restaurants and bars where Caxy employees hang.",
             "roles": "JS, UI/UX, Hunger, Initiative",
             "techs": [
               { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
@@ -75,7 +79,7 @@
             "name": "Trakan: Official Music Site",
             "url": "http://trakan.com/",
             "thumb": "../assets/images/screen/trakan.jpg",
-            "what": "A website for an awesome local Chicago musician.",
+            "what": "A website for an awesome local Chicago musician",
             "roles": "Design, UI/UX, Music &amp; Lyrics, Suspect Acting Skill",
             "techs": [
               { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
