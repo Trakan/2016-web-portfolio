@@ -1,27 +1,78 @@
-<div class="portfolio-content max-container">
-  RESUME STUFF HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-</div>
+<section class="portfolio-content max-container">
 
+  <!-- EXPERIENCE -->
+  <h1 ng-if="RVC.content.experience.header" ng-bind="RVC.content.experience.header"></h1>
+  <ul>
+    <li ng-repeat="item in RVC.content.experience.items">
+      <div>
+        <h4><a ng-href="item.company.url" ng-bind="item.company.name"></a></h4>
+        <h4 ng-bind="item.company.dates"></h4>
+        <h4 ng-bind="item.company.title"></h4>
+        <ul>
+          <li ng-repeat="role in item.roles" ng-bind="role"></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <!-- TECH SKILLS -->
+  <h1 ng-bind="RVC.content.techs.header"></h1>
+  <ul>
+    <li ng-repeat="item in RVC.content.techs.items">
+      <div>
+        <h4 ng-bind="item.subhead"></h4>
+        <p ng-bind="item.desc"></p>
+      </div>
+    </li>
+  </ul>
+
+  <!-- SOFT SKILLS -->
+  <h1 ng-bind="RVC.content.soft.header"></h1>
+  <ul>
+    <li ng-repeat="item in RVC.content.soft.items">
+      <div>
+        <h4 ng-bind="item.subhead"></h4>
+        <p ng-bind="item.desc"></p>
+      </div>
+    </li>
+  </ul>
+
+  <!-- INDIE -->
+  <h1 ng-bind="RVC.content.indie.header"></h1>
+  <ul>
+    <li ng-repeat="item in RVC.content.indie.items">
+      <div>
+        <p ng-bind="item.desc"></p>
+        <ul>
+          <li ng-repeat="exp in item.experience" ng-bind-html="exp"></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <!-- EDUCATION -->
+  <h1 ng-bind="RVC.content.education.header"></h1>
+  <ul>
+    <li ng-repeat="item in RVC.content.education.items">
+      <div>
+        <h4 ng-bind="item.degree"></h4>
+        <p ng-bind="item.description"></p>
+        <h5 ng-bind="item.awarder"></h5>
+        <h5 ng-bind="item.location"></h5>
+      </div>
+    </li>
+  </ul>
+
+  <!-- CERTIFICATIONS -->
+
+</section>
+<h1 ng-bind="RVC.content.certs.header"></h1>
+<ul>
+  <li ng-repeat="item in RVC.content.certs.items">
+    <div>
+      <h4 ng-bind="item.description"></h4>
+      <h5 ng-bind="item.awarder"></h5>
+      <h5 ng-bind="item.location"></h5>
+    </div>
+  </li>
+</ul>
