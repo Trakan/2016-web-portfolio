@@ -192,6 +192,7 @@
   .navbar-menu {
     background-color: $client-primary;
     position: fixed;
+    opacity: .95;
 
     ul.main-nav {
       justify-content: flex-end;
