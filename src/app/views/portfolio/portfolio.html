@@ -7,48 +7,53 @@
   <!-- FEATURED PORTFOLIO PIECES -->
   <h1 class="handwriting" ng-bind="PVC.content.featured.headline"></h1>
 
-  <article class="col-xs-12 col-sm-6" ng-repeat="item in PVC.content.featured.projects">
-    <!-- screenshot -->
-    <a ng-href="{{item.url}}" target="_blank">
-      <div>
-        <img alt="{{item.name}}" ng-src="{{item.thumb}}"/>
-        <!-- project name -->
-        <h2 ng-bind="item.name"></h2>
-      </div>
-    </a>
+  <div class="portfolio-wrap">
+    <article class="portfolio-piece" ng-repeat="item in PVC.content.featured.projects">
+      <div class="project-wrap">
 
+        <!-- screenshot -->
+        <a ng-href="{{item.url}}" target="_blank">
+          <div>
+            <img alt="{{item.name}}" ng-src="{{item.thumb}}"/>
+            <!-- project name -->
+            <h2 ng-bind="item.name"></h2>
+          </div>
+        </a>
 
-    <div class="project-description">
-      <!-- description -->
-      <div>
-        <h4>What it is:</h4>
-        <p ng-bind="item.what"></p>
-      </div>
+        <div class="project-description">
+          <!-- description -->
+          <div>
+            <h4>What it is:</h4>
+            <p ng-bind="item.what"></p>
+          </div>
 
-      <!-- my roles on project -->
-      <div>
-        <h4>What I brought to the app:</h4>
-        <p ng-bind-html="item.roles"></p>
-      </div>
+          <!-- my roles on project -->
+          <div>
+            <h4>What I brought to the app:</h4>
+            <p ng-bind-html="item.roles"></p>
+          </div>
 
-      <!-- technologies used -->
-      <div>
-        <h4>Stuff I used:</h4>
+          <!-- technologies used -->
+          <div>
+            <h4>Stuff I used:</h4>
         <span class="span-list" ng-repeat="tech in item.techs">
           <a ng-href="{{tech.url}}" ng-bind="tech.name" target="_blank"></a>
         </span>
-      </div>
+          </div>
 
-      <!-- reflections -->
-      <div>
-        <h4>What I remember:</h4>
-        <ul>
-          <li ng-repeat="memory in item.memories" ng-bind="memory"></li>
-        </ul>
-      </div>
-    </div>
+          <!-- reflections -->
+          <div>
+            <h4>What I remember:</h4>
+            <ul>
+              <li ng-repeat="memory in item.memories" ng-bind="memory"></li>
+            </ul>
+          </div>
+        </div>
 
-  </article>
+      </div>
+    </article>
+  </div>
+
 
   <!-- LOGOS OF PAST JOBS-->
   <!-- TODO - add recor, northwestern-->

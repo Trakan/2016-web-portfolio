@@ -1,7 +1,7 @@
 export class PortfolioController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, DataService) {
+  constructor ($log, $state, $window, $scope, DataService) {
     'ngInject';
 
     this.$log = $log;
@@ -30,7 +30,6 @@ export class PortfolioController {
     // use callback to handle async response
     this.$Data.getData('portfolio', function(response) {
       that.content = response;
-      that.$log.debug('init CONTACT', that.content);
     });
   }
 
