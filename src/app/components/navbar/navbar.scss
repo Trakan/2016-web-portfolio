@@ -193,6 +193,7 @@
     background-color: $client-primary;
     position: fixed;
     opacity: .95;
+    box-shadow: 0 2px 5px -2px rgba(35,44,51,0.72);
 
     ul.main-nav {
       justify-content: flex-end;

@@ -14,13 +14,13 @@ export class ConfigService {
            route: 'home',
            icon: 'fa-briefcase'
          },
-         /* TODO - add these pages phase 2 ,
          {
            label: 'resume',
            route: 'resume',
            icon: 'fa-file-text'
          },
-         {
+         /* TODO - add these pages phase 2 ,
+          {
            label: 'bio',
            route: 'bio',
            icon: 'fa-user'

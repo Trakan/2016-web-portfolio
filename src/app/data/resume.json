@@ -1,5 +1,9 @@
 [
   {
+    "greetings": [
+      "I have a PDF version for you too",
+      "Feel free to download it here: <br>TODO"
+    ],
     "experience": {
       "header": "",
       "items": [
