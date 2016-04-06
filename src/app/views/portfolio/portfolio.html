@@ -37,7 +37,7 @@
           <div>
             <h4>Stuff I used:</h4>
             <span class="span-list" ng-repeat="tech in item.techs">
-              <a ng-href="{{tech.url}}" ng-bind="tech.name" target="_blank"></a>
+              <a ng-href="{{tech.url}}" ng-bind-html="tech.name" target="_blank"></a>
             </span>
           </div>
 
@@ -45,7 +45,7 @@
           <div>
             <h4>What I remember:</h4>
             <ul>
-              <li ng-repeat="memory in item.memories" ng-bind="memory"></li>
+              <li ng-repeat="memory in item.memories" ng-bind-html="memory"></li>
             </ul>
           </div>
         </div>
