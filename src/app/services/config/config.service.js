@@ -37,29 +37,35 @@ export class ConfigService {
         /*
         {
           label: 'Twitter',
-          url: 'https://twitter.com/miketrakan'
+          url: 'https://twitter.com/miketrakan',
+          icon: 'twitter1'
         },
-        */
-        {
-          label: 'Github',
-          url: 'https://github.com/Trakan'
-        },
-        /*
         {
           label: 'Codedrops',
-          url: 'http://www.trakan.com'
+          url: 'http://www.trakan.com',
+          icon: ''
         },
         */
         {
+          label: 'LinkedIn',
+          url: 'https://www.linkedin.com/in/trakan',
+          icon: 'linkedin'
+        },
+        {
+          label: 'Github',
+          url: 'https://github.com/Trakan',
+          icon: 'github'
+        },
+        {
           label: 'Meetups',
-          url: 'http://www.meetup.com/members/54405852/'
-        }
-        /*,
+          url: 'http://www.meetup.com/members/54405852/',
+          icon: 'meetup'
+        },
         {
           label: 'Contact',
-          state: 'home'
+          state: 'home',
+          icon: 'email'
         }
-        */
       ]
     };
 

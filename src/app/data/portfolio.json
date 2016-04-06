@@ -11,7 +11,7 @@
           {
             "name": "Caxy's Hungry Games",
             "url": "http://thehungrygames.io/",
-            "thumb": "../assets/images/screen/hungry.jpg",
+            "thumb": "../assets/images/screen/hungry.png",
             "what": "ReactJS app that maps/reviews restaurants and bars where Caxy employees hang.",
             "roles": "JS, UI/UX, Hunger, Initiative",
             "techs": [
@@ -56,7 +56,7 @@
           {
             "name": "SIFMA Stock Market Game Registration",
             "url": "http://registration.smgww.org/#/",
-            "thumb": "../assets/images/screen/sifma-search.jpg",
+            "thumb": "../assets/images/screen/sifma-reg.png",
             "what": "Monster form wizard that registers kids and teachers for a popular classroom stock market game",
             "roles": "JS, UI/UX, Persistance, Agility",
             "techs": [
@@ -107,42 +107,42 @@
           {
             "name": "Caxy Code Creative",
             "url": "https://www.caxy.com/",
-            "thumb": "../assets/images/logos/caxy.png"
+            "thumb": "../assets/images/logos/caxy-100.png"
           },
           {
             "name": "Spatial Point, LLC",
             "url": "http://spatialpoint.com/",
-            "thumb": "../assets/images/logos/spatialpoint.png"
+            "thumb": "../assets/images/logos/spatialpoint-100.png"
           },
           {
             "name": "Arc Technology Group",
             "url": "http://www.arctg.com/",
-            "thumb": "../assets/images/logos/arc.png"
+            "thumb": "../assets/images/logos/arc-100.png"
           },
           {
             "name": "Tutor/Mentor Connection",
             "url": "http://www.tutormentorconnection.org/",
-            "thumb": "../assets/images/logos/tmc.png"
+            "thumb": "../assets/images/logos/tmc-100.png"
           },
           {
             "name": "Loyola University",
             "url": "http://www.luc.edu/sustainability/",
-            "thumb": "../assets/images/logos/loyola.png"
+            "thumb": "../assets/images/logos/loyola-100.png"
           },
           {
             "name": "Evention, LLC",
             "url": "http://www.eventionllc.com/",
-            "thumb": "../assets/images/logos/evention.png"
+            "thumb": "../assets/images/logos/evention-100.png"
           },
           {
             "name": "Marsh, LLC (CS STARS)",
             "url": "http://www.marshclearsight.com/",
-            "thumb": "../assets/images/logos/csstars.png"
+            "thumb": "../assets/images/logos/csstars-100.png"
           },
           {
             "name": "STATS, LLC",
             "url": "http://www.stats.com/",
-            "thumb": "../assets/images/logos/stats.png"
+            "thumb": "../assets/images/logos/stats-100.png"
           }
         ]
     }
