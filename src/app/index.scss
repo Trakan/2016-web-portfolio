@@ -1,8 +1,6 @@
 // CUSTOM THEME
 @import "theme/miketrakan";
 
-//$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
@@ -30,12 +28,6 @@
 
 
 /* MIXINS */
-
-/*
-@mixin transition-grow {
-  transition: height 1s ease;
-}
-*/
 
 @mixin transition-fade {
   transition: opacity .1s ease-in-out;
@@ -114,11 +106,11 @@ main {
   flex: 1 0 auto;
   margin: 0 auto;
 
-  .portfolio-content {
+  .view-content {
     margin-bottom: 4rem;
     width: 90vw;
 
-    h1 {
+    h1, .h1 {
       text-align: center;
     }
 
@@ -142,6 +134,18 @@ main {
 header,
 footer {
   flex: none; // Set `flex-shrink` to `0` to prevent some browsers from letting these items shrink to smaller than their content's default minimum size. See http://bit.ly/1Mn35US for details.
+}
+
+.view-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+
+  .view-item {
+    flex: 1;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
 }
 
 

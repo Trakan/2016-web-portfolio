@@ -1,0 +1,29 @@
+.contact-item-wrap {
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 45vw;
+}
+.contact-item,
+.contact-description {
+  padding: 1rem 3rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-description {
+  .h2, h4 {
+    margin: 0;
+  }
+}
+
+.contact-icon {
+  img {
+    height: 10rem;
+  }
+}

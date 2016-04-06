@@ -1,8 +1,8 @@
 [
   {
-    "picture": "http://placehold.it/32x32",
-    "name": "Mike Trakan",
-    "email": "trakan@gmail.com",
-    "about": "Excepteur irure magna reprehenderit esse ullamco consectetur quis dolore enim nostrud duis. Enim incididunt eu commodo consectetur pariatur aute voluptate qui laboris proident incididunt. Nostrud velit eiusmod eu commodo sit ipsum nostrud adipisicing fugiat culpa qui. Aliquip ex pariatur tempor dolore aliqua eu laborum."
+    "greetings": [
+      "My friends call me 'Trakan'",
+      "Please drop me a line, or find me at a meetup<br> I'm a big fan of old-school face-to-face conversation"
+    ]
   }
 ]

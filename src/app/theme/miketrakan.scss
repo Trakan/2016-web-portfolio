@@ -29,13 +29,12 @@ $body-bg: $client-white;
 
 
 
-
 // FONTS
 $web-font-path: "https://fonts.googleapis.com/css?family=Rock+Salt|Titillium+Web:400,700" !default;
 @import url($web-font-path);
 
-$font-family-header: 'Rock Salt', cursive !default;
 $font-family-base: 'Titillium Web', sans-serif !default;
+$font-family-header: 'Rock Salt', $font-family-base !default;
 
 $font-size-base:          14px !default;
 $font-size-large:         18px !default;

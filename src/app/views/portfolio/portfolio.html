@@ -1,4 +1,4 @@
-<section class="portfolio-content max-container">
+<section class="view-content portfolio-content max-container">
 
   <div class="greeting">
     <p class="h4 handwriting" ng-repeat="greeting in PVC.content.greetings" ng-bind-html="greeting"></p>
@@ -7,8 +7,8 @@
   <!-- FEATURED PORTFOLIO PIECES -->
   <h1 class="handwriting" ng-bind="PVC.content.featured.headline"></h1>
 
-  <div class="portfolio-wrap">
-    <article class="portfolio-piece" ng-repeat="item in PVC.content.featured.projects">
+  <div class="view-wrap">
+    <article class="view-item portfolio-piece" ng-repeat="item in PVC.content.featured.projects">
       <div class="project-wrap">
 
         <!-- screenshot -->
@@ -54,12 +54,10 @@
     </article>
   </div>
 
-
   <!-- LOGOS OF PAST JOBS-->
   <!-- TODO - add recor, northwestern-->
-  <h1 class="handwriting" ng-bind="PVC.content.past.headline"></h1>
-
-  <div class="portfolio-wrap old-logos">
+  <p class="h1 handwriting" ng-bind="PVC.content.past.headline"></p>
+  <div class="view-wrap portfolio-wrap old-logos">
     <a ng-repeat="place in PVC.content.past.places" ng-href="{{place.url}}" target="_blank">
       <img alt="{{place.name}}" ng-src="{{place.thumb}}"/>
     </a>

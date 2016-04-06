@@ -1,7 +1,7 @@
 export class ContactController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, DataService) {
+  constructor ($log, $state, DataService, ConfigService) {
     'ngInject';
 
     this.$log = $log;
@@ -11,8 +11,10 @@ export class ContactController {
 
     // CUSTOM SERVICES
     this.$Data = DataService;
+    this.$Config = ConfigService;
 
     // STATE VARS
+    // todo: add loader
     this.isLoading = false;
 
     // DATA
@@ -30,7 +32,9 @@ export class ContactController {
     // use callback to handle async response
     this.$Data.getData('contact', function(response) {
       that.content = response;
-      that.$log.debug('init CONTACT', that.content);
+
+      // add the contact/samples links from the config file, shared with the footer
+      that.content.contacts = that.$Config.MENU_OPTS.footer;
     });
   }
 
@@ -43,5 +47,4 @@ export class ContactController {
         break;
     }
   }
-
 }

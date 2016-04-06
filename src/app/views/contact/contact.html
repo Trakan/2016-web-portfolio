@@ -1,27 +1,25 @@
-<div class="portfolio-content max-container">
-  CONTACT STUFF HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-  CONTENT HERE<br>
-</div>
+<section class="view-content contact-content max-container">
+  <!-- todo: redundant component - put in a directive-->
+  <div class="greeting">
+    <p class="h4 handwriting" ng-repeat="greeting in CVC.content.greetings" ng-bind-html="greeting"></p>
+  </div>
 
+  <div class="contact-wrap" ng-repeat="contactType in CVC.content.contacts">
+    <h1 class="handwriting" ng-bind="contactType.desc"></h1>
+    <div class="contact-item-wrap" ng-repeat="item in contactType.items">
+
+        <div class="contact-item">
+          <div class="contact-icon pull-left">
+            <a ng-href="{{item.link.url}}" target="_blank">
+              <img alt="{{item.label}}" ng-src="{{'assets/svg/' + item.icon + '.svg'}}"/>
+            </a>
+          </div>
+          <div class="contact-description pull-left">
+            <h4 ng-bind="item.desc"></h4>
+            <a class="h2" ng-href="{{item.link.url}}" target="_blank" ng-bind="item.link.text"></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+    </div>
+  </div>
+</section>
