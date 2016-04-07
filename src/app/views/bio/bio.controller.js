@@ -28,7 +28,7 @@ export class BioController {
     let that = this;
 
     // use callback to handle async response
-    this.$Data.getData('bio', function(response) {
+    this.$Data.getData('bio', (response) => {
       that.content = response;
       that.$log.debug('init BIO', that.content);
     });

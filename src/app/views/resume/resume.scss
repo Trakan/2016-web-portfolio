@@ -1,0 +1,57 @@
+.view-content.resume-content {
+
+  .greeting {
+    padding-bottom: 0;
+  }
+
+  article {
+    margin-bottom: 8rem;
+
+    .h1 {
+      color: $client-primary;
+      margin-bottom: 2rem;
+    }
+  }
+
+  article.resume-experience {
+    h1, .h1 {
+      line-height: 2.8rem;
+    }
+  }
+
+  ul {
+    width: 95vw;
+    padding: 0 2rem;
+    list-style-type: none;
+
+    @media (min-width: $screen-sm-min) {
+      width: 75vw;
+      margin: 0 auto;
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: 75vw;
+    }
+  }
+
+  ul.resume-bullets {
+    list-style-type: disc;
+
+    li {
+      width: 95%;
+      // todo: create bullet out of hats
+      //list-style-image: url('../../../assets/svg/mike-trakan-logo.svg');
+    }
+  }
+
+  .text-center ul {
+    @media (max-width: $screen-xs-max) {
+      text-align: left;
+    }
+  }
+
+  li {
+    padding: 1rem .5rem;
+  }
+
+}

@@ -29,14 +29,9 @@
 
 /* MIXINS */
 
-
 @mixin transition-fade {
   transition: opacity .1s ease-in-out;
   opacity: .5;
-}
-
-@mixin nav-indent-left {
-  margin-left: 1rem !important;
 }
 
 
@@ -57,6 +52,10 @@ TYPOGRAPHY
     text-decoration: none;
   }
 
+  h1, .h1 {
+    line-height: 4rem;
+  }
+
   h4, .h4 {
     line-height: 2.5rem;
   }
@@ -72,9 +71,12 @@ small {
 }
 
 .yellow {
-  color: $client-yellow;
+  color: darken($client-yellow, 10%);
 }
 
+.bold {
+  font-weight: 700;
+}
 
 /*************
 SCAFFOLD - MAIN
@@ -115,10 +117,11 @@ main {
   .view-content {
     margin-bottom: 4rem;
     width: 90vw;
+    min-height: 100rem;
 
     h1, .h1 {
       text-align: center;
-      color: darken($client-yellow, 10%);
+      @extend .yellow;
     }
 
     .greeting {
@@ -134,6 +137,9 @@ main {
         }
       }
 
+      img {
+       height: 6rem;
+      }
     }
   }
 }
@@ -165,31 +171,6 @@ footer {
     text-align: center;
   }
 }
-
-
-
-//todo - prob won't need these, cleanup
-// Buttons ====================================================================
-/*
-.btn {
-  border: none;
-  @extend .miketrakan;
-
-  &:hover {
-    border-color: transparent;
-  }
-
-  &-lg {
-    line-height: 2.6rem;
-  }
-
-  &-default {
-    &:hover {
-      background-color: $navbar-default-link-active-bg;
-    }
-  }
-}
-*/
 
 
 /**

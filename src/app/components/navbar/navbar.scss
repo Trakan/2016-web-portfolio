@@ -120,6 +120,7 @@
     font-weight: 400;
     font-size: 1.6rem;
     color: $client-font-color-white;
+    opacity: .85;
 
     @media (max-width: $screen-xxs-max) {
       font-size: 0;
@@ -133,8 +134,9 @@
     background-color: transparent;
     text-decoration: none;
     @include transition-fade;
-    opacity: .8;
+    opacity: 1;
   }
+
 }
 
 

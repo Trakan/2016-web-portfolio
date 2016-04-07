@@ -1,8 +1,7 @@
 [
   {
     "greetings": [
-      "I have a PDF version for you too",
-      "Feel free to download it here: <br>TODO"
+      "<a target='_blank' href='assets/docs/TRAKAN-resume.pdf'>pdf version: <img src='assets/svg/pdf.svg' alt='DOWNLOAD'></a>"
     ],
     "experience": {
       "header": "",
@@ -91,45 +90,12 @@
             "Received formal SQL training; Two-years developing PL/SQL programs to process real-time NFL game day data, while simultaneously converting legacy NFL data to Oracle 9i",
             "Worked another two years in STATSí fantasy sports department, developing web applications and user interfaces, using old-school HTML, ASP, and ODBC"
           ]
-        },
-        {
-          "company": {
-            "name": "Recor Corporation",
-            "dates": "todo",
-            "title": "todo",
-            "url": "http://www.recor.com"
-          },
-          "roles": [
-            ""
-          ]
-        },
-        {
-          "company": {
-            "name": "Vitruvian",
-            "dates": "todo",
-            "title": "todo",
-            "url": "todo"
-          },
-          "roles": [
-            ""
-          ]
-        },
-        {
-          "company": {
-            "name": "Freelance",
-            "dates": "todo",
-            "title": "todo",
-            "url": "todo"
-          },
-          "roles": [
-            ""
-          ]
         }
       ]
     },
 
     "techs": {
-      "header": "Core Technology, Tools and Software Experience",
+      "header": "Core Technology, Tools &amp; Software Experience",
       "items": [
         {
           "subhead":"JavaScript",
@@ -158,18 +124,6 @@
         {
           "subhead":"Design/Creative",
           "desc": "Adobe CC 2015 (Photoshop, Illustrator);  SVG;  Prototypes;  Marketing Materials;  Music/Video Production"
-        },
-        {
-          "subhead":"GIS",
-          "desc": "todo"
-        },
-        {
-          "subhead":"CMS",
-          "desc": "todo"
-        },
-        {
-          "subhead":"Audio",
-          "desc": "todo"
         }
       ]
     },
@@ -197,7 +151,7 @@
     },
 
     "indie": {
-      "header": "Multimedia and Marketing",
+      "header": "Multimedia &amp; Marketing",
       "items": [
         {
           "desc": "Independently wrote, produced and promoted two full-length CDs, released in 2007 and 2012",
@@ -211,7 +165,7 @@
     },
 
     "education": {
-      "header": "",
+      "header": "Education",
       "items": [
         {
           "degree": "Master of Education",
@@ -229,7 +183,7 @@
     },
 
     "certs": {
-      "header": "Training/Certifications",
+      "header": "Training &amp; Certifications",
       "items": [
         {
           "description": "Object Oriented Design and Development Certificate",

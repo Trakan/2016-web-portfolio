@@ -28,9 +28,8 @@ export class ResumeController {
     let that = this;
 
     // use callback to handle async response
-    this.$Data.getData('resume', function(response) {
+    this.$Data.getData('resume', (response) => {
       that.content = response;
-      that.$log.debug('init RESUME', that.content);
     });
   }
 
