@@ -64,10 +64,15 @@ TYPOGRAPHY
 
 .handwriting {
   font-family: $font-family-header;
+  letter-spacing: .2rem;
 }
 
 small {
   font-size: 70%;
+}
+
+.yellow {
+  color: $client-yellow;
 }
 
 
@@ -133,6 +138,17 @@ main {
   }
 }
 
+.max-container {
+  max-width: $max-width-container;
+  margin: 0 auto;
+}
+
+main, .max-container {
+  @media (max-width: $screen-xs-max) {
+    margin: 0;
+  }
+}
+
 header,
 footer {
   flex: none; // Set `flex-shrink` to `0` to prevent some browsers from letting these items shrink to smaller than their content's default minimum size. See http://bit.ly/1Mn35US for details.
@@ -152,9 +168,9 @@ footer {
 
 
 
-
+//todo - prob won't need these, cleanup
 // Buttons ====================================================================
-
+/*
 .btn {
   border: none;
   @extend .miketrakan;
@@ -173,87 +189,7 @@ footer {
     }
   }
 }
-
-
-// Tables =====================================================================
-
-// Forms ======================================================================
-
-// Indicators =================================================================
-
-//fixme - using?
-/*
-.alert {
-
-  a,
-  .alert-link {
-    color: #fff;
-  }
-}
-
-.tooltip {
-  @extend .miketrakan;
-}
 */
-
-// Progress bars ==============================================================
-
-//todo - phase 2
-/*
-.progress {
-  border-radius: 1rem;
-  background-color: $gray-light;
-  @include box-shadow(none);
-
-  &-bar {
-    @include box-shadow(none);
-  }
-}
-*/
-
-// Containers =================================================================
-
-
-.max-container {
-  max-width: $max-width-container;
-  margin: 0 auto;
-}
-
-/*
-//todo - using these?
-.list-group {
-  &-item {
-    padding: 1.6rem 2.4rem;
-  }
-}
-
-.well {
-  @include box-shadow(none);
-}
-
-.panel {
-  @include box-shadow(none);
-
-  .panel-heading,
-  .panel-title {
-    @extend .miketrakan;
-    color: #fff;
-  }
-
-  .panel-footer {
-    @extend .miketrakan;
-  }
-
-  &-default {
-    .panel-heading,
-    .panel-title,
-    .panel-footer {
-      color: $gray;
-    }
-  }
-}
-*/
-
 
 
 /**

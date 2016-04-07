@@ -4,6 +4,7 @@ export class ContactController {
   constructor ($log, $state, DataService, ConfigService) {
     'ngInject';
 
+    // todo - won't need these in production
     this.$log = $log;
 
     // UI ROUTER
@@ -30,7 +31,7 @@ export class ContactController {
     let that = this;
 
     // use callback to handle async response
-    this.$Data.getData('contact', function(response) {
+    this.$Data.getData('contact', (response) => {
       that.content = response;
 
       // add the contact/samples links from the config file, shared with the footer

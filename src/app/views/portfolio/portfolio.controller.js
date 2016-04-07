@@ -28,7 +28,7 @@ export class PortfolioController {
     let that = this;
 
     // use callback to handle async response
-    this.$Data.getData('portfolio', function(response) {
+    this.$Data.getData('portfolio', (response) => {
       that.content = response;
     });
   }
