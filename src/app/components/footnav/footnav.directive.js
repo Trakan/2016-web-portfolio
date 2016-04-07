@@ -18,6 +18,9 @@ class FootNavController {
     'ngInject';
 
     this.$state = $state;
-    this.footerMenuOptions = ConfigService.MENU_OPTS.footer;
+    this.footerContent = ConfigService.MENU_OPTS.footer;
+    this.builtNotes = ConfigService.BUILT_NOTES;
+
+    console.log('hey:', this.footerContent);
   }
 }

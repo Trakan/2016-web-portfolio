@@ -7,7 +7,6 @@ import { routerConfig } from './app.route';
 // make angular aware of controller modules
 import { PortfolioController } from './views/portfolio/portfolio.controller';
 import { ContactController } from './views/contact/contact.controller';
-import { BioController } from './views/bio/bio.controller';
 import { ResumeController } from './views/resume/resume.controller';
 
 // services
@@ -37,7 +36,6 @@ angular.module('uiMikeTrakan', [
 
   .controller('PortfolioController', PortfolioController)
   .controller('ContactController', ContactController)
-  .controller('BioController', BioController)
   .controller('ResumeController', ResumeController)
 
   .directive('navbar', NavbarDirective)

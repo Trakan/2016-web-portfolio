@@ -6,6 +6,10 @@ export class ConfigService {
     this.$log = $log;
 
     this.TITLE = "Mike Trakan";
+    this.BUILT_NOTES = {
+      how: "with AngularJS 1.4, ES2015, Sass, Gulp and a smile",
+      license: "Content free to <a href='https://github.com/Trakan' target='_blank'>look at and use if you want</a>, except where otherwise noted"
+    };
 
     this.MENU_OPTS = {
        nav: [
@@ -19,13 +23,6 @@ export class ConfigService {
            route: 'resume',
            icon: 'fa-file-text'
          },
-         /* TODO - add these pages phase 2 ,
-          {
-           label: 'bio',
-           route: 'bio',
-           icon: 'fa-user'
-         },
-         */
          {
            label: 'contact',
            route: 'contact',
@@ -88,7 +85,6 @@ export class ConfigService {
                 "text": "github.com/Trakan",
                 "url": "https://github.com/Trakan"
               },
-              url: 'https://github.com/Trakan',
               icon: 'github'
             }
             /*

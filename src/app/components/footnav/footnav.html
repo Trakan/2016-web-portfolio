@@ -1,12 +1,23 @@
 <div class="footer-nav max-container">
-  <div class="col-xs-12 col-sm-6">
-    <ul class="list-inline">
-      <li ng-repeat="link in FND.footerMenuOptions">
-        <a ng-if="link.url" href="{{link.url}}" target="_blank" ng-bind="link.label"></a>
-        <a ng-if="link.state" ui-sref="{{link.state}}" ng-bind="link.label"></a>
+
+  <div class="footer-nav-wrap">
+    <ul ng-repeat="footerSection in FND.footerContent">
+      <li ng-repeat="item in footerSection.items">
+        <a ng-if="item.link.url" href="{{item.link.url}}" target="_blank">
+          <!--fixme - svg work better by using css background img ? -->
+          <img alt="{{item.label}}" ng-src="{{'assets/svg/' + item.icon + '.svg'}}"/>
+        </a>
       </li>
-      <li><a ui-sref="home">&copy; Mike Trakan</a></li>
     </ul>
+    <div class="clearfix"></div>
+  </div>
+
+  <!-- todo - use moment to get build year-->
+  <div class="license-wrap text-center">
+    <h6>
+      Built <span>2016</span> <span ng-bind-html="FND.builtNotes.how"></span>
+    </h6>
+    <h6 ng-bind-html="FND.builtNotes.license"></h6>
   </div>
   <div class="clearfix"></div>
 </div>
