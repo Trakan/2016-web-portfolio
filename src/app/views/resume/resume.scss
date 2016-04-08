@@ -37,6 +37,10 @@
     @media (min-width: $screen-md-min) {
       width: 75vw;
     }
+
+    @media (min-width: $screen-lg-min) {
+      max-width: 80rem;
+    }
   }
 
   ul.resume-bullets {
