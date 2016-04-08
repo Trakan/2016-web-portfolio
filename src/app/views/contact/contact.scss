@@ -1,12 +1,5 @@
 .view-content.contact-content {
 
-  @media (max-width: $screen-xs-max) {
-    .greeting p, h1, .h1 {
-      width: 100vw;
-      padding: 0 1rem;
-    }
-  }
-
   .contact-item-wrap {
     margin: 0 auto;
     padding: 2rem 0;

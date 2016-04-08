@@ -141,6 +141,14 @@ main {
        height: 6rem;
       }
     }
+
+    @media (max-width: $screen-xs-max) {
+      .greeting p, h1, .h1 {
+        width: 100vw;
+        padding: 0 1rem;
+      }
+    }
+
   }
 }
 
