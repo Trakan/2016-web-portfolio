@@ -15,9 +15,9 @@
   <!-- todo - use moment to get build year-->
   <div class="license-wrap text-center">
     <h6>
-      Built <span>2016</span> <span ng-bind-html="FND.builtNotes.how"></span>
+      Portfolio built <span>2016</span> <span ng-bind-html="FND.builtNotes.how"></span>
     </h6>
-    <h6 ng-bind-html="FND.builtNotes.license"></h6>
+    <h6 ng-repeat="note in FND.builtNotes.license" ng-bind-html="note"></h6>
   </div>
   <div class="clearfix"></div>
 </div>

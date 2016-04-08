@@ -7,8 +7,12 @@ export class ConfigService {
 
     this.TITLE = "Mike Trakan";
     this.BUILT_NOTES = {
-      how: "with AngularJS 1.4, ES2015, Sass, Gulp and a smile",
-      license: "Content free to <a href='https://github.com/Trakan' target='_blank'>look at and use if you want</a>, except where otherwise noted"
+      how: "with AngularJS 1.4, ES2015, Sass, and Gulp",
+      license: [
+        "Please don't use any of the logos, but pretty sure nothing else is copyrighted",
+        "Code free to <a href='https://github.com/Trakan' target='_blank'>look at and use if you want</a>"
+
+      ]
     };
 
     this.MENU_OPTS = {

@@ -26,7 +26,10 @@ footer {
       list-style-type: none;
       display: flex;
       justify-content: center;
-      margin: 0;
+    }
+
+    ul:first-child {
+      padding: 0;
     }
 
     li {
