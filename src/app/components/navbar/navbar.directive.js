@@ -14,7 +14,7 @@ export function NavbarDirective() {
 }
 
 class NavbarController {
-  constructor ($state, $scope, $window, $document, ConfigService) {
+  constructor ($state, $scope, $window, ConfigService) {
     'ngInject';
 
     this.$state = $state;
@@ -24,18 +24,18 @@ class NavbarController {
     /** EVENT HANDLING **/
 
     // shrink/fix navbar on scroll position, using jqlite
-    // fixme - is there a way to do this witout jquery or document?
+    // FIXME - how to use $document to accomplish this, instead of document
     let navMenuElement = angular.element(document.querySelector('.navbar'));
     let fixedNavClass = 'affix-nav';
     let scrollThreshold = document.querySelector('.navbar-header').offsetHeight;
 
-    angular.element($window).bind('scroll', function() {
+    angular.element($window).bind('scroll', () => {
       if ( ($window.scrollY > scrollThreshold) && (!navMenuElement.hasClass(fixedNavClass)) ) {
         navMenuElement.addClass(fixedNavClass);
       } else if ( ($window.scrollY <= scrollThreshold) && (navMenuElement.hasClass(fixedNavClass)) ) {
         navMenuElement.removeClass(fixedNavClass);
       }
-      $scope.$apply(); //scope.$apply() - scroll runs outside normal digest cycle
+      $scope.$apply(); // scroll runs outside normal digest cycle
     });
 
   }

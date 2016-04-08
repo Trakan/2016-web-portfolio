@@ -1,5 +1,3 @@
-/* global moment:false */
-
 // configs
 import { config } from './app.config';
 import { routerConfig } from './app.route';
@@ -17,7 +15,7 @@ import { DataService } from '../app/services/data/data.service';
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { FootNavDirective } from '../app/components/footnav/footnav.directive';
 
-// TODO - remove any bower components we anticipated that we don't end up using, in the end
+
 // TODO - ARIA/accessibility
 
 angular.module('uiMikeTrakan', [
@@ -25,8 +23,6 @@ angular.module('uiMikeTrakan', [
   'ngAria',
   'ui.router'
 ])
-
-  .constant('moment', moment)
 
   .config(config)
   .config(routerConfig)

@@ -12,9 +12,6 @@ export class ResumeController {
     // CUSTOM SERVICES
     this.$Data = DataService;
 
-    // STATE VARS
-    this.isLoading = false;
-
     // DATA
     this.content = {};
 

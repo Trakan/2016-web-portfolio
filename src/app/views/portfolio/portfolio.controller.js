@@ -1,7 +1,7 @@
 export class PortfolioController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, $window, $scope, DataService) {
+  constructor ($log, $state, DataService) {
     'ngInject';
 
     this.$log = $log;
@@ -11,9 +11,6 @@ export class PortfolioController {
 
     // CUSTOM SERVICES
     this.$Data = DataService;
-
-    // STATE VARS
-    this.isLoading = false;
 
     // DATA
     this.content = {};

@@ -25,7 +25,6 @@
       z-index: 100;
       padding: 0;
 
-      // TODO - create hat logo with path for band?
       .trakan-logo {
         text-align: center;
 
@@ -136,7 +135,6 @@
     @include transition-fade;
     opacity: 1;
   }
-
 }
 
 
@@ -211,4 +209,5 @@
       }
     }
   }
+
 }

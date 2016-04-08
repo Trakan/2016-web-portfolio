@@ -1,21 +1,13 @@
 export class DataService {
 
-  constructor($log, $state, $http, ConfigService) {
+  constructor($log, $http) {
     'ngInject';
 
     this.$log = $log;
     this.$http = $http;
 
-    // UI ROUTER
-    this.$state = $state;
-
-    // CUSTOM SERVICES
-    this.$Config = ConfigService;
-
   }  //<-- End of Constructor
 
-
-  // todo - error handling
 
   getData(type, callbackResponse) {
     this.$http.get('app/data/' + type + '.json')

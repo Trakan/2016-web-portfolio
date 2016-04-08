@@ -1,8 +1,9 @@
 .view-content.portfolio-content {
+
   .portfolio-piece {
 
     @media (max-width: $screen-xs-max) {
-      border-bottom: 1px solid lighten($client-gray-lite, 10%);
+      border-bottom: .1rem solid lighten($client-gray-lite, 10%);
     }
 
     .project-wrap {

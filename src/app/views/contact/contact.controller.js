@@ -4,7 +4,6 @@ export class ContactController {
   constructor ($log, $state, DataService, ConfigService) {
     'ngInject';
 
-    // todo - won't need these in production
     this.$log = $log;
 
     // UI ROUTER
@@ -13,10 +12,6 @@ export class ContactController {
     // CUSTOM SERVICES
     this.$Data = DataService;
     this.$Config = ConfigService;
-
-    // STATE VARS
-    // todo: add loader
-    this.isLoading = false;
 
     // DATA
     this.content = {};

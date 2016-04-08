@@ -1,4 +1,4 @@
-// CUSTOM THEME
+// CUSTOM BOOTSTRAP THEME
 @import "theme/miketrakan";
 
 /**
@@ -94,7 +94,7 @@ body {
   @extend .miketrakan;
   background-color: $client-white;
   display: flex;
-  height: 100%; // Avoid the IE 10-11 `min-height` bug. TODO - test on current supported IEs
+  height: 100%; // Avoid the IE 10-11 `min-height` bug.
   min-height: 100vh;
   flex-direction: column;
   overflow-y: auto;

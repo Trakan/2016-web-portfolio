@@ -21,6 +21,6 @@ class FootNavController {
     this.footerContent = ConfigService.MENU_OPTS.footer;
     this.builtNotes = ConfigService.BUILT_NOTES;
 
-    console.log('hey:', this.footerContent);
+    this.currentTime = new Date();
   }
 }
