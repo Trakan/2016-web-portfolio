@@ -91,27 +91,14 @@ html {
 }
 
 body {
-  background-color: $client-white;
-
-  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
-    //background-color: red; // todo - remove when nav finished
-  }
-
-  @media (min-width: $screen-sm-min) {
-    //background-color: blue; // todo - remove when nav finished
-  }
-
-  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-    //background-color: gold; // todo - remove when nav finished
-  }
-
   @extend .miketrakan;
-
+  background-color: $client-white;
   display: flex;
   height: 100%; // Avoid the IE 10-11 `min-height` bug. TODO - test on current supported IEs
   min-height: 100vh;
   flex-direction: column;
   overflow-y: auto;
+  overflow-x: hidden; // account for vertical scrollbar on 100vw
 }
 
 main {
@@ -120,7 +107,7 @@ main {
 
   .view-content {
     margin-bottom: 4rem;
-    width: 90vw;
+    width: 100vw;
     min-height: 100rem;
 
     h1, .h1 {
@@ -148,7 +135,6 @@ main {
 
     @media (max-width: $screen-xs-max) {
       .greeting p, h1, .h1 {
-        width: 100vw;
         padding: 0 1rem;
       }
     }
