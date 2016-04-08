@@ -52,6 +52,10 @@ TYPOGRAPHY
     text-decoration: none;
   }
 
+  a:active, a:focus {
+    outline: none;
+  }
+
   h1, .h1 {
     line-height: 4rem;
   }
