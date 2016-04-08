@@ -1,44 +1,55 @@
-.contact-item-wrap {
-  margin: 0 auto;
-  padding: 2rem 0;
-  width: 100vw;
-
-  @media (min-width: $screen-sm-min) {
-    width: 45vw;
-  }
-}
-
-.contact-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
+.view-content.contact-content {
 
   @media (max-width: $screen-xs-max) {
-    justify-content: flex-start;
-    padding-left: 10vw;
-  }
-}
-
-.contact-description {
-  padding: 1rem 3rem;
-
-  .h2, h4 {
-    margin: 0;
-  }
-
-  a {
-    color: $client-gray-lite;
-  }
-}
-
-.contact-icon {
-  img {
-    height: 10rem;
-
-    @media (max-width: $screen-xs-max) {
-      height: 7rem;
+    .greeting p, h1, .h1 {
+      width: 100vw;
+      padding: 0 1rem;
     }
   }
+
+  .contact-item-wrap {
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 100vw;
+
+    @media (min-width: $screen-sm-min) {
+      width: 45vw;
+    }
+  }
+
+  .contact-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+    @media (max-width: $screen-xs-max) {
+      justify-content: flex-start;
+      padding-left: 10vw;
+    }
+  }
+
+  .contact-description {
+    padding: 1rem 3rem;
+
+    .h2, h4 {
+      margin: 0;
+    }
+
+    a {
+      color: $client-gray-lite;
+    }
+  }
+
+  .contact-icon {
+    img {
+      height: 10rem;
+
+      @media (max-width: $screen-xs-max) {
+        height: 7rem;
+      }
+    }
+  }
+
 }
