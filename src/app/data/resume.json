@@ -14,10 +14,10 @@
             "url": "https://www.caxy.com/"
           },
           "roles": [
-            "Cutting-edge JavaScripting;  Two years building enterprise web applications and marketing sites with AngularJS 1.x, ReactJS, and many associated tools and libraries (ECMAScript 5 and ES2015)",
-            "Worked with PHP team designing APIs and handling asynchronous responses with promises",
-            "Achieved high level of expertise with CSS3/SASS to bring designs to life.  Increasingly-proficient design chops; Comfortable designing in-browser or working from whiteboard sketches if needed",
-            "Daily participation on jelled multi-disciplinary agile teams, providing front-end, UX/IA, and design contributions across all stages of development, from planning/pointing to development/delivery ",
+            "Cutting-edge JavaScript (ECMAScript 5 and ES2015);  Two years experience building enterprise web applications and marketing sites with AngularJS 1.x, ReactJS, and related front-end technologies",
+            "Collaborated with PHP team to design APIs;  Handled asynchronous requests/responses with promises",
+            "Achieved high level of expertise with CSS3/Sass to bring designs to life.  Increasingly-proficient design chops; Comfortable designing in-browser or working from whiteboard sketches if needed",
+            "Daily participation on jelled multi-disciplinary agile teams, providing front-end, UI/UX, and design contributions across all stages of development, from planning/pointing to development/delivery",
             "Promoted to front-end leadership after first performance review.  Regularly invited to participate in groups that helped guide the company's evolution with agile/scrum, UX, and development"
           ]
         },
@@ -29,7 +29,7 @@
             "url": "http://spatialpoint.com/"
           },
           "roles": [
-            "Helped a small GIS team build MVC JavaScript web application demos for the telecommunications industry using Sencha's ExtJS framework and the Bing Maps API"
+            "Helped a small GIS (Geographic Information Systems) team build MVC JavaScript map applications for the telecommunications industry using Sencha's ExtJS framework and the Bing Maps API"
           ]
         },
         {
@@ -54,7 +54,7 @@
           },
           "roles": [
             "Merged design and GIS skills to develop strategy maps for a student-based non-profit",
-            "Wore several leadership hats: organizer for a successful benefit concert fund-raiser, curator of a public map gallery, and volunteer teacher for the program's 10th grade Tech Club"
+            "Wore several leadership hats: Organizer for a successful benefit concert fund-raiser, curator of a public map gallery, and volunteer teacher for the program's 10th grade 'Tech Club'"
           ]
         },
         {
@@ -65,7 +65,7 @@
             "url": "http://www.alraby.org/"
           },
           "roles": [
-            "Developed philosophies on leadership and social behavior while pursuing Education degree and while teaching/tutoring high school students in a west-side Chicago Public School"
+            "Developed philosophies on leadership and social behavior during pursuit of graduate level degree in Education, while concurrently teaching/tutoring high school students at a Chicago Public School"
           ]
         },
         {
@@ -88,7 +88,7 @@
           },
           "roles": [
             "Received formal SQL training; Two-years developing PL/SQL programs to process real-time NFL game day data, while simultaneously converting legacy NFL data to Oracle 9i",
-            "Worked another two years in STATSí fantasy sports department, developing web applications and user interfaces, using old-school HTML, ASP, and ODBC"
+            "Worked another two years in STATS' fantasy sports department, developing web applications and user interfaces with XHTML, ASP, and ODBC"
           ]
         }
       ]
@@ -103,7 +103,7 @@
         },
         {
           "subhead":"HTML5/CSS3",
-          "desc": "Handcoded HTML5/CSS3;  Precompilers (Sass);  UI/Responsive Frameworks (Bootstrap 3.x, Material Design)"
+          "desc": "Handcoded HTML5/CSS3;  Precompilers (Sass, Less);  UI/Responsive Frameworks (Bootstrap 3.x, Material Design)"
         },
         {
           "subhead":"Web Services",
@@ -119,7 +119,7 @@
         },
         {
           "subhead":"Project Tools",
-          "desc": "Package Managers (Bower, npm, Homebrew);  Task Runners (Gulp, Grunt);  Version Control (Git, GitHub)"
+          "desc": "Task Runners/Build Tools (Gulp, Grunt);  Version Control (Git, GitHub);  Package Managers (Bower, npm, Homebrew)"
         },
         {
           "subhead":"Design/Creative",
@@ -133,7 +133,7 @@
       "items": [
         {
           "subhead": "Learning",
-          "desc": "Quickly learned Angular, React, and other modern technologies as needed, in agency-paced environment at Caxy"
+          "desc": "Quickly learned Angular, React, and other modern front-end technologies as needed, in agency-paced environment at Caxy"
         },
         {
           "subhead": "Agile Teamwork",
@@ -145,7 +145,7 @@
         },
         {
           "subhead": "Leadership",
-          "desc": "Experience consulting, training, and mentoring;  Graduate degree in education;  Strong belief in lead by example"
+          "desc": "Experience consulting, training, and mentoring;  Graduate degree in Education;  Strong belief in 'lead by example'"
         }
       ]
     },
@@ -154,7 +154,7 @@
       "header": "Multimedia &amp; Marketing",
       "items": [
         {
-          "desc": "Independently wrote, produced and promoted two full-length CDs, released in 2007 and 2012",
+          "desc": "Independently wrote, produced, and promoted two full-length CDs, released in 2007 and 2012",
           "experience": [
             "<strong>Technology:</strong>  Sound Production;  Audio Engineering/Mastering;  Video Production",
             "<strong>Design:</strong>  Marketing Materials (Logos, Posters, Press Releases);  CD Production Templates",

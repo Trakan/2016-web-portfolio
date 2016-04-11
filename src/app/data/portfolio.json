@@ -12,7 +12,7 @@
             "name": "Caxy's Hungry Games",
             "url": "http://thehungrygames.io/",
             "thumb": "../assets/images/screen/hungry.png",
-            "what": "ReactJS app that maps/reviews restaurants and bars where Caxy employees hang.",
+            "what": "ReactJS app that maps/reviews restaurants and bars where Caxy employees hang",
             "roles": "JS, UI/UX, Hunger, Initiative",
             "techs": [
               { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
@@ -48,9 +48,9 @@
             ],
             "memories": [
               "Being a key member of crack agile team that turned this out quickly",
-              "Collaborating with a cool PHP developer and Project Owner",
+              "Collaborating with cool PHP developers and Product Owner",
               "Having fun making something borderline magical",
-              "Quickly learned Elastic Search and Gulp to make it happen"
+              "Quickly learned Elastic Search to make it happen"
             ]
           },
           {
@@ -70,9 +70,9 @@
             ],
             "memories": [
               "Maybe the most complicated thing I’ve ever helped build",
-              "So many agile iterations... close relationship with client",
+              "So many agile iterations... relationship with client",
               "Collaborating with many talented teammates",
-              "Persistence payed off - pretty sweet form.  <a target='_blank' href='http://registration.smgww.org/#/'>Sign up and play!</a>"
+              "Persistence paid off - pretty sweet form.  <a target='_blank' href='http://registration.smgww.org/#/'>Sign up and play!</a>"
             ]
           },
           {
@@ -92,7 +92,7 @@
               { "name": "Leaflet", "url": "http://leafletjs.com/" }
             ],
             "memories": [
-              "First dive into handcoding an HTML5/CSS3 site with responsive grids and all",
+              "First dive into handcoding an HTML5/CSS3 site with responsive grids",
               "How far I’ve come the past two years at Caxy, looking back on this",
               "Successful promotion of a record that I’m really proud of",
               "(I need to finish writing my new songs and build a new/better site)"
