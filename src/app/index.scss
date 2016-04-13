@@ -98,6 +98,9 @@ body {
   min-height: 100vh;
   flex-direction: column;
   overflow-y: auto;
+  }
+
+.wrapper, body {
   overflow-x: hidden; // account for vertical scrollbar on 100vw
 }
 
