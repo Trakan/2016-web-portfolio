@@ -19,7 +19,7 @@
     <div class="col-xs-9 col-xs-offset-3 col-sm-12 col-sm-offset-0">
       <ul class="main-nav">
         <!-- menu items -->
-        <a ui-sref="{{item.route}}" ng-repeat="item in ND.navMenuOptions">
+        <a ui-sref="{{item.route}}" ui-sref-active='active' ng-repeat="item in ND.navMenuOptions">
           <li><i class="fa" ng-class="item.icon"></i><span ng-bind="item.label"></span></li>
         </a>
       </ul>

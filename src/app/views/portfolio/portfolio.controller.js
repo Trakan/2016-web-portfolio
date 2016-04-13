@@ -41,7 +41,6 @@ export class PortfolioController {
         this.loadView();
 
         this.$rootScope.$emit('initMenu', {
-          routeName: this.$state.current.name,
           curScrollPos: this.$window.scrollY
         });
 

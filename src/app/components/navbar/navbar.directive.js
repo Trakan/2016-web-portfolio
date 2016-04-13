@@ -28,19 +28,10 @@ class NavbarController {
 
       // scroll to top on route change
       let scrollThreshold = document.querySelector(menuShrinkTrigger).offsetHeight;
-      let scrollToPosY = 0;
 
       //if user already scrolled past point where menu shrunk, keep it shrunk when scroll back to the top
-      if ( args.curScrollPos >= scrollThreshold ) {
-        scrollToPosY = scrollThreshold; //todo - animate; make this smoother
-      }
-
+      let scrollToPosY = ( args.curScrollPos >= scrollThreshold ) ? scrollThreshold : 0;
       $window.scrollTo(0, scrollToPosY); //todo - animate to make this smoother
-
-
-      // highlight current route in navbar
-      // todo: use underscore to get proper value from config
-      //args.routeName
 
     });
 
