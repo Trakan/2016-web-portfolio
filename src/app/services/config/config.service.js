@@ -15,6 +15,10 @@ export class ConfigService {
       ]
     };
 
+    this.NAV_SETTINGS = {
+      menuShrinkTriggerClass: '.navbar-header'
+    };
+
     this.MENU_OPTS = {
        nav: [
          {

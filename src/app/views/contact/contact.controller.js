@@ -1,10 +1,13 @@
 export class ContactController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, DataService, ConfigService) {
+  constructor ($log, $rootScope, $state, $window, DataService, ConfigService) {
     'ngInject';
 
     this.$log = $log;
+
+    this.$window = $window;
+    this.$rootScope = $rootScope;
 
     // UI ROUTER
     this.$state = $state;
@@ -40,6 +43,12 @@ export class ContactController {
     switch (this.$state.current.name) {
       case 'contact':
         this.loadView();
+
+        this.$rootScope.$emit('initMenu', {
+          routeName: this.$state.current.name,
+          curScrollPos: this.$window.scrollY
+        });
+
         break;
     }
   }

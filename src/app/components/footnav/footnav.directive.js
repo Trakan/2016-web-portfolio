@@ -14,10 +14,9 @@ export function FootNavDirective() {
 }
 
 class FootNavController {
-  constructor ($state, ConfigService) {
+  constructor (ConfigService) {
     'ngInject';
 
-    this.$state = $state;
     this.footerContent = ConfigService.MENU_OPTS.footer;
     this.builtNotes = ConfigService.BUILT_NOTES;
 

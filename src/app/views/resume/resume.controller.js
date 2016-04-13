@@ -1,10 +1,13 @@
 export class ResumeController {
 
   // controller written as a controller function, exported as ES6 module
-  constructor ($log, $state, DataService) {
+  constructor ($log, $rootScope, $state, $window, DataService) {
     'ngInject';
 
     this.$log = $log;
+
+    this.$window = $window;
+    this.$rootScope = $rootScope;
 
     // UI ROUTER
     this.$state = $state;
@@ -35,6 +38,12 @@ export class ResumeController {
     switch (this.$state.current.name) {
       case 'resume':
         this.loadView();
+
+        this.$rootScope.$emit('initMenu', {
+          routeName: this.$state.current.name,
+          curScrollPos: this.$window.scrollY
+        });
+
         break;
     }
   }
