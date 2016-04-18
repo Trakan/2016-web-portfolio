@@ -19,11 +19,13 @@ footer {
   }
 
   .footer-nav-wrap {
+    display: table-cell; // ie9
     display: flex;
     justify-content: center;
 
     ul {
       list-style-type: none;
+      display: table-cell; // ie9
       display: flex;
       justify-content: center;
     }
