@@ -215,3 +215,20 @@
   }
 
 }
+
+// ie10 specific
+.no-flexbox,
+.no-flexboxlegacy {
+
+  main {
+    padding-top: 150px;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    opacity: .95;
+    z-index: 10000;
+  }
+
+}
