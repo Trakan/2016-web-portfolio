@@ -105,6 +105,11 @@
       "places":
         [
           {
+            "name": "PointSource, LLC",
+            "url": "https://www.pointsource.com/",
+            "thumb": "../assets/images/logos/pointsource-100.png"
+          },
+          {
             "name": "Caxy Code Creative",
             "url": "https://www.caxy.com/",
             "thumb": "../assets/images/logos/caxy-100.png"

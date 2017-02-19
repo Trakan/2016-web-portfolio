@@ -6,6 +6,22 @@
     "experience": {
       "header": "",
       "items": [
+
+        {
+          "company": {
+            "name": "PointSource, LLC",
+            "dates": "2016 - present",
+            "title": "Software Engineer (JavaScript Web Applications)",
+            "url": "https://www.pointsource.com/"
+          },
+          "roles": [
+            "Modular, efficient front-end architecture (AngularJS) for highly-customized form interfaces",
+            "UI/UX collaboration with lead designer (ìCo-Designî);  CSS/Sass expertise brings designs and themes to life",
+            "Works closely with backend Node.js developers to model RESTful APIs;  Crafts front-ends/clients that consume JSON endpoints, handling asynchronous responses with promises for concurrent users",
+            "Test-driven development (Karma, Mocha/Chai/Sinon) with continuous integration (CI) to ensure code quality",
+            "Sprint planning with project management on agile team;  Efforts improved accuracy of estimations on first project"
+          ]
+        },
         {
           "company": {
             "name": "Caxy Interactive",
@@ -14,18 +30,15 @@
             "url": "https://www.caxy.com/"
           },
           "roles": [
-            "Cutting-edge JavaScript (ECMAScript 5 and ES2015);  Two years experience building enterprise web applications and marketing sites with AngularJS 1.x, ReactJS, and related front-end technologies",
-            "Collaborated with PHP team to design APIs;  Handled asynchronous requests/responses with promises",
-            "Achieved high level of expertise with CSS3/Sass to bring designs to life.  Increasingly-proficient design chops; Comfortable designing in-browser or working from whiteboard sketches if needed",
-            "Daily participation on jelled multi-disciplinary agile teams, providing front-end, UI/UX, and design contributions across all stages of development, from planning/pointing to development/delivery",
-            "Promoted to front-end leadership after first performance review.  Regularly invited to participate in groups that helped guide the company's evolution with agile/scrum, UX, and development"
+            "Cutting edge JavaScript (ES5, ES6/ES2015);  Two years experience building enterprise applications and marketing sites with AngularJS 1.x, ReactJS, and related front-end technologies",
+            "Promoted to front-end leadership after first performance review.  Provided front-end, UI/UX, and design contributions across all stages of development, from planning/pointing to development/delivery"
           ]
         },
         {
           "company": {
             "name": "SpatialPoint, LLC",
             "dates": "2012 - 2013",
-            "title": "Software Developer (JavaScript Web Applications)",
+            "title": "Software Developer (JavaScript Map Applications)",
             "url": "http://spatialpoint.com/"
           },
           "roles": [
@@ -93,33 +106,32 @@
         }
       ]
     },
-
     "techs": {
       "header": "Core Technology, Tools &amp; Software Experience",
       "items": [
         {
           "subhead":"JavaScript",
-          "desc": "ES5, ES2015 (Babel);  MV* Frameworks (AngularJS 1.x);  Libraries (jQuery 1.x/2.x, ReactJS, Underscore);  Mobile (Ionic 1.x)"
+          "desc": "ES5, ES6/ES2015 (Babel);  MV* Frameworks (AngularJS 1.x);  Libraries (ReactJS/Flux, jQuery 2.x, Lodash, Underscore, Immutable);  Mobile (Cordova, Ionic 1.x)"
         },
         {
           "subhead":"HTML5/CSS3",
-          "desc": "Handcoded HTML5/CSS3;  Precompilers (Sass, Less);  UI/Responsive Frameworks (Bootstrap 3.x, Material Design)"
+          "desc": "Handcoded HTML5/CSS3;  Precompilers (Sass, Less);  UI/Responsive Frameworks (Bootstrap 3.x, Material Design, Foundation)"
         },
         {
           "subhead":"Web Services",
-          "desc": "Asynchronous Requests/Responses (AJAX, Callbacks, Promises);  REST;  API/Endpoint Design;  JSON;  XML"
+          "desc": "Asynchronous Requests/Responses (AJAX, Callbacks, Promises);  JSON;  REST;  API/Endpoint Design;  Authentication/JWT"
         },
         {
           "subhead":"Databases",
-          "desc": "MySQL 5.x;  MongoDB/NoSQL;  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema Design;  Real-Time Data"
+          "desc": "MySQL 5.x;  MongoDB/NoSQL;  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema Design;  Real-Time Data;  Concurrent Users"
         },
         {
           "subhead":"Testing, Code Quality",
-          "desc": "Runners/Frameworks (Karma, Jasmine, Selenium);  ESLint;  W3C validators;  Browser Debugging;  Cross-Browser Testing"
+          "desc": "Runners/Frameworks (Karma, Jasmine, Selenium);  ESLint;  W3C validators;  Browser Debugging;  Cross-Browser Testing;  Continuous Integratios (Jenkins)"
         },
         {
           "subhead":"Project Tools",
-          "desc": "Task Runners/Build Tools (Gulp, Grunt);  Version Control (Git, GitHub);  Package Managers (Bower, npm, Homebrew)"
+          "desc": "Task Runners/Build Tools (Gulp, Grunt, webpack);  Version Control (Git, GitHub);  Package Managers (Bower, npm, Homebrew)"
         },
         {
           "subhead":"Design/Creative",
@@ -133,7 +145,7 @@
       "items": [
         {
           "subhead": "Learning",
-          "desc": "Quickly learned Angular, React, and other modern front-end technologies as needed, in agency-paced environment at Caxy"
+          "desc": "Asks questions.  Able to quickly learn modern front-end technologies and client requirements in agency-paced environments"
         },
         {
           "subhead": "Agile Teamwork",
@@ -141,7 +153,7 @@
         },
         {
           "subhead": "Communication",
-          "desc": "Prizes mutual respect, trust, and face-to-face discussion;  Not afraid to give honest, direct feedback if asked"
+          "desc": "Prizes mutual respect, trust, and face-to-face discussion;  Not afraid to give honest, direct feedback when asked"
         },
         {
           "subhead": "Leadership",
