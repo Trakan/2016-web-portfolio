@@ -43,13 +43,29 @@
     }
   }
 
+  li {
+    padding: 1rem .5rem;
+  }
+
   ul.resume-bullets {
     list-style-type: disc;
 
     li {
-      width: 95%;
+      width: 90%;
       // todo: create bullet out of hat svg
       //list-style-image: url('../../../assets/svg/mike-trakan-logo.svg');
+    }
+
+    ul {
+      list-style-type: circle;
+      width: 80%;
+      margin: 0 0 0 3rem;
+      padding: 0 2rem 1rem;
+
+      li.subrole {
+        padding: 0;
+        width: 100%;
+      }
     }
   }
 
@@ -57,10 +73,6 @@
     @media (max-width: $screen-xs-max) {
       text-align: left;
     }
-  }
-
-  li {
-    padding: 1rem .5rem;
   }
 
 }

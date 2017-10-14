@@ -15,6 +15,9 @@
           <h4 class="text-center" ng-bind="item.company.dates"></h4>
           <ul class="resume-bullets">
             <li ng-repeat="role in item.roles" ng-bind="role"></li>
+            <ul ng-if="item.subroles">
+              <li class="subrole" ng-repeat="subrole in item.subroles" ng-bind="subrole"></li>
+            </ul>
           </ul>
         </div>
       </li>
