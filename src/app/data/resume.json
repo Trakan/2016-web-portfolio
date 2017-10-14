@@ -10,28 +10,42 @@
         {
           "company": {
             "name": "PointSource, LLC",
-            "dates": "2016 - present",
-            "title": "Software Engineer (JavaScript Web Applications)",
+            "dates": "August 2016 - September 2017",
+            "title": "Software Engineer (Senior-Level, Front-End, JavaScript Web Applications)",
             "url": "https://www.pointsource.com/"
           },
           "roles": [
-            "Modular, efficient front-end architecture (AngularJS) for highly-customized form interfaces",
-            "UI/UX collaboration with lead designer (ìCo-Designî);  CSS/Sass expertise brings designs and themes to life",
-            "Works closely with backend Node.js developers to model RESTful APIs;  Crafts front-ends/clients that consume JSON endpoints, handling asynchronous responses with promises for concurrent users",
-            "Test-driven development (Karma, Mocha/Chai/Sinon) with continuous integration (CI) to ensure code quality",
-            "Sprint planning with project management on agile team;  Efforts improved accuracy of estimations on first project"
+            "Conceived and delivered a modular, highly-customized form interface (UI) using AngularJS",
+            "Flexibly adapted to client-requested UX, design and data model needs, during year of agile iterations",
+            "Helped company earn a multi-year contract extension through high-quality deliveries",
+            "Front-end leadership and management contributions on a cross-disciplinary team"
+          ],
+          "subroles": [
+            "Collaborated with design leads on theming and UX; CSS/Sass expertise to bring designs to life",
+            "Worked with backend developers to flush out and model RESTful APIs",
+            "Consumed JSON endpoints for concurrent users, handling asynchronous responses with promises",
+            "Onboarded and empowered other front-end developers when the project ramped up",
+            "Oversaw growth of client-side unit test coverage to minimize regressions",
+            "Supervised Git repository for UI’s development branch, providing code reviews and merging pull requests",
+            "Managed continuous integration to automate builds/deployments to the testing environment",
+            "Prioritized daily communication with offsite project management and offshore QA team, to help unblock teammates, monitor acceptance criteria, and facilitate division of labor",
+            "Proposed and influenced agile methodologies, improving sprint planning and estimates",
+            "Drafted flow-chart for new employee deck, visualizing how remote offices might improve collaborations"
           ]
         },
         {
           "company": {
             "name": "Caxy Interactive",
             "dates": "2014 - 2016",
-            "title": "Lead Front-End Developer (JavaScript Web Applications)",
+            "title": "Senior Front-End Developer (JavaScript Web Applications)",
             "url": "https://www.caxy.com/"
           },
           "roles": [
-            "Cutting edge JavaScript (ES5, ES6/ES2015);  Two years experience building enterprise applications and marketing sites with AngularJS 1.x, ReactJS, and related front-end technologies",
-            "Promoted to front-end leadership after first performance review.  Provided front-end, UI/UX, and design contributions across all stages of development, from planning/pointing to development/delivery"
+            "Two years building enterprise applications and marketing sites with AngularJS, ReactJS and related front-end technologies",
+            "Cutting edge JavaScript (ES5, ES6/ES2015)",
+            "Demonstrated proficiency with CSS and theming techniques; Worked closely with designer/UX leads",
+            "Promoted to front-end leadership after first performance review.",
+            "Last app I worked on was a finalist for an Acquia Engage Award, in the 'Decoupled Drupal' category"
           ]
         },
         {
@@ -54,7 +68,8 @@
           },
           "roles": [
             "Emerged as front-end specialist on a waterfall team, providing custom jQuery components, Joomla 2.x templates, and customized administration interfaces for several MySQL back-ends ",
-            "Took ownership of content inventories and helped coordinate front-end efforts with project managers and designers, eventually authoring specifications and performing client-facing tasks",
+            "Took ownership of content inventories and helped coordinate front-end efforts with project managers and designers",
+            "Authored specifications and performed client-facing tasks",
             "Through our team's efforts, the company reported a 40% profit growth, best in company history"
           ]
         },
@@ -66,7 +81,7 @@
             "url": "http://www.tutormentorconnection.org/"
           },
           "roles": [
-            "Merged design and GIS skills to develop strategy maps for a student-based non-profit",
+            "Merged design and GIS skills to create strategy maps for the tutor/mentor community, at a student-based non-profit organization",
             "Wore several leadership hats: Organizer for a successful benefit concert fund-raiser, curator of a public map gallery, and volunteer teacher for the program's 10th grade 'Tech Club'"
           ]
         },
@@ -78,7 +93,7 @@
             "url": "http://www.alraby.org/"
           },
           "roles": [
-            "Developed philosophies on leadership and social behavior during pursuit of graduate level degree in Education, while concurrently teaching/tutoring high school students at a Chicago Public School"
+            "Developed philosophies on leadership and social behavior during pursuit of graduate level degree in Education, while concurrently teaching/tutoring CPS high school freshmen and sophomores"
           ]
         },
         {
@@ -111,31 +126,31 @@
       "items": [
         {
           "subhead":"JavaScript",
-          "desc": "ES5, ES6/ES2015 (Babel);  MV* Frameworks (AngularJS 1.x);  Libraries (ReactJS/Flux, jQuery 2.x, Lodash, Underscore, Immutable);  Mobile (Cordova, Ionic 1.x)"
+          "desc": "ECMAScript (ES5, ES6, Babel); MV* Frameworks (AngularJS 1.x); Libraries (ReactJS/Flux, jQuery 2.x, Lodash); Mobile Hybrid (Ionic 1.x)"
         },
         {
           "subhead":"HTML5/CSS3",
-          "desc": "Handcoded HTML5/CSS3;  Precompilers (Sass, Less);  UI/Responsive Frameworks (Bootstrap 3.x, Material Design, Foundation)"
+          "desc": "Hand-coded HTML5/CSS3; Adaptive layouts; Responsive grids; Precompilers (Sass, Less); UI Frameworks (Bootstrap 3.x, Material Design, Foundation); SVG; CSS Transitions/Animations"
         },
         {
-          "subhead":"Web Services",
-          "desc": "Asynchronous Requests/Responses (AJAX, Callbacks, Promises);  JSON;  REST;  API/Endpoint Design;  Authentication/JWT"
-        },
-        {
-          "subhead":"Databases",
-          "desc": "MySQL 5.x;  MongoDB/NoSQL;  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema Design;  Real-Time Data;  Concurrent Users"
+          "subhead":"Web Services (Front-End Support)",
+          "desc": "API Planning/Design; Endpoint Consumption; Asynchronous Requests/Responses (Promises, AJAX, Callbacks); JSON; REST; Client-side authentication (JWT); Concurrent user support"
         },
         {
           "subhead":"Testing, Code Quality",
-          "desc": "Runners/Frameworks (Karma, Jasmine, Selenium);  ESLint;  W3C validators;  Browser Debugging;  Cross-Browser Testing;  Continuous Integratios (Jenkins)"
+          "desc": "Runners/Frameworks (Karma, Jasmine, Selenium);  ESLint;  W3C validators;  Browser Debugging;  Cross-Browser Testing;  Continuous Integration (Jenkins)"
         },
         {
-          "subhead":"Project Tools",
-          "desc": "Task Runners/Build Tools (Gulp, Grunt, webpack);  Version Control (Git, GitHub);  Package Managers (Bower, npm, Homebrew)"
+          "subhead":"Database Familiarity",
+          "desc": "SQL, MySQL 5.x;  NoSQL/MongoDB;  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema Design;  Real-Time Data"
+        },
+        {
+          "subhead":"Project Tools/Environment",
+          "desc": "Task Runners/Build Tools (Gulp, Grunt, webpack);  Version Control (Git, GitHub);  Package Managers (Bower, npm)"
         },
         {
           "subhead":"Design/Creative",
-          "desc": "Adobe CC 2015 (Photoshop, Illustrator);  SVG;  Prototypes;  Marketing Materials;  Music/Video Production"
+          "desc": "UX ('Co-design'); Prototypes; Adobe CC 2015 (Photoshop, Illustrator); Marketing Materials; Music/Video Production"
         }
       ]
     },
@@ -145,19 +160,19 @@
       "items": [
         {
           "subhead": "Learning",
-          "desc": "Asks questions.  Able to quickly learn modern front-end technologies and client requirements in agency-paced environments"
+          "desc": "Knows where to look for answers and when to ask questions; Able to quickly adapt new technologies and client requirements in  agency-paced environments; Humbled by the industry – always excited to learn more"
         },
         {
-          "subhead": "Agile Teamwork",
-          "desc": "Strong attention to agile processes;  Self-monitoring if required but a versatile, reliable team-player at heart;  Knows role"
+          "subhead": "Teamwork/Agile",
+          "desc": "Self-monitoring if required, but an agile team-player at heart; Just as happy with the assist as I am scoring the goal; Prizes mutual respect, trust, collaboration, and the rare 'jelled team'; Open-minded and never the 'derailer' in the room"
         },
         {
           "subhead": "Communication",
-          "desc": "Prizes mutual respect, trust, and face-to-face discussion;  Not afraid to give honest, direct feedback when asked"
+          "desc": "Shares information and communicates in timely manner so others aren’t blocked; Recently called ‘thorough’ in my detail orientation and preparation; Not afraid to raise hand when I feel something is wrong, lost, or forgotten"
         },
         {
           "subhead": "Leadership",
-          "desc": "Experience consulting, training, and mentoring;  Graduate degree in Education;  Strong belief in 'lead by example'"
+          "desc": "Graduate degree in Education; Experience managing front-end processes; Experience consulting, training, onboarding and mentoring; Reflective with a developing leadership philosophy; Strong believer in ‘lead by example’"
         }
       ]
     },
@@ -166,7 +181,7 @@
       "header": "Multimedia &amp; Marketing",
       "items": [
         {
-          "desc": "Independently wrote, produced, and promoted two full-length CDs, released in 2007 and 2012",
+          "desc": "Independently wrote, produced, designed and promoted two full-length CDs, released in 2007 and 2012",
           "experience": [
             "<strong>Technology:</strong>  Sound Production;  Audio Engineering/Mastering;  Video Production",
             "<strong>Design:</strong>  Marketing Materials (Logos, Posters, Press Releases);  CD Production Templates",
@@ -181,7 +196,7 @@
       "items": [
         {
           "degree": "Master of Education",
-          "description": "Teaching and Learning:  Secondary Social Studies, Technology",
+          "description": "Teaching and Learning:  Secondary Social Studies",
           "awarder": "DePaul University",
           "location": "Chicago, IL"
         },
