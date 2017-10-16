@@ -126,31 +126,31 @@
       "items": [
         {
           "subhead":"JavaScript",
-          "desc": "ECMAScript (ES5, ES6, Babel); MV* Frameworks (AngularJS 1.x); Libraries (ReactJS/Flux, jQuery 2.x, Lodash); Mobile Hybrid (Ionic 1.x)"
+          "desc": "ECMAScript (ES5, ES6, Babel); MV* frameworks (AngularJS 1.x); Libraries (ReactJS/Flux, jQuery 2.x, Lodash); Mobile hybrid (Ionic 1.x)"
         },
         {
           "subhead":"HTML5/CSS3",
-          "desc": "Hand-coded HTML5/CSS3; Adaptive layouts; Responsive grids; Precompilers (Sass, Less); UI Frameworks (Bootstrap 3.x, Material Design, Foundation); SVG; CSS Transitions/Animations"
+          "desc": "Hand-coded HTML5/CSS3; Adaptive layouts; Responsive grids; Precompilers (Sass, Less); UI frameworks (Bootstrap 3.x, Material Design, Foundation); SVG; CSS transitions/animations"
         },
         {
           "subhead":"Web Services (Front-End Support)",
-          "desc": "API Planning/Design; Endpoint Consumption; Asynchronous Requests/Responses (Promises, AJAX, Callbacks); JSON; REST; Client-side authentication (JWT); Concurrent user support"
+          "desc": "API planning/design; Endpoint consumption; Asynchronous requests/responses (promises, AJAX, callbacks); JSON; REST; Client-side authentication (JWT); Concurrent user support"
         },
         {
           "subhead":"Testing, Code Quality",
-          "desc": "Runners/Frameworks (Karma, Jasmine, Selenium);  ESLint;  W3C validators;  Browser Debugging;  Cross-Browser Testing;  Continuous Integration (Jenkins)"
+          "desc": "Unit testing (Karma, Mocha/Chai/Sinon); ESLint; W3C validators; Cross-browser; Continuous integration (Jenkins)"
         },
         {
           "subhead":"Database Familiarity",
-          "desc": "SQL, MySQL 5.x;  NoSQL/MongoDB;  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema Design;  Real-Time Data"
+          "desc": "SQL, MySQL 5.x;  NoSQL (MongoDB);  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema design;  Real-time data"
         },
         {
           "subhead":"Project Tools/Environment",
-          "desc": "Task Runners/Build Tools (Gulp, Grunt, webpack);  Version Control (Git, GitHub);  Package Managers (Bower, npm)"
+          "desc": "Task runners/bundlers (Gulp, Grunt, webpack); Version control (Git, GitHub); Package managers (Bower, npm)"
         },
         {
           "subhead":"Design/Creative",
-          "desc": "UX ('Co-design'); Prototypes; Adobe CC 2015 (Photoshop, Illustrator); Marketing Materials; Music/Video Production"
+          "desc": "UX ('Co-Design'); Prototypes; Adobe CC 2015 (Photoshop, Illustrator); Marketing materials; Music/video production"
         }
       ]
     },
