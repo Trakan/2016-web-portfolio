@@ -88,7 +88,7 @@ export class ConfigService {
           "items": [
             {
               label: 'Github',
-              desc: 'Some code samples (including this site)',
+              desc: 'Some code samples (ask to sit and tour my private repos)',
               link: {
                 "text": "github.com/Trakan",
                 "url": "https://github.com/Trakan"

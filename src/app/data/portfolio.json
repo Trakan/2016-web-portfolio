@@ -1,155 +1,348 @@
-[
-  {
-    "greetings": [
-      "Chicago-based front-end web dev, <br>specializing in JavaScript apps",
-      "Travels with lots of UX and design love<br>( And a bottle of home-brewed hotsauce ... Just in case )"
+[{
+  "greetings": {
+    "main": [
+      "Chicago-based front-end web dev"
     ],
-    "featured": {
-      "headline": "Things I've helped build the past year or so:",
-      "projects":
-        [
-          {
-            "name": "Caxy's Hungry Games",
-            "url": "http://thehungrygames.io/",
-            "thumb": "../assets/images/screen/hungry.png",
-            "what": "ReactJS app that maps/reviews restaurants and bars where Caxy employees hang",
-            "roles": "JS, UI/UX, Hunger, Initiative",
-            "techs": [
-              { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
-              { "name": "ES2015 (Babel)", "url": "https://babeljs.io/docs/learn-es2015/" },
-              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "name": "Sass", "url": "http://sass-lang.com/" },
-              { "name": "Gulp", "url": "http://gulpjs.com/" },
-              { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org" },
-              { "name": "Leaflet", "url": "http://leafletjs.com/" }
-            ],
-            "memories": [
-              "Collaborating with a cool designer on UI/UX",
-              "Having fun making something that generated sale leads",
-              "Taking marketing group’s loose ideas and bringing em to life",
-              "Quickly learning ReactJS and ES2015 to make it happen"
-            ]
-          },
-          {
-            "name": "SIFMA Stock Market Game Search",
-            "url": "http://www.stockmarketgame.org/search.html#/search/banana",
-            "thumb": "../assets/images/screen/sifma-search.jpg",
-            "what": "Elastic search interface for a popular game that teaches kids how to use the stock market",
-            "roles": "JS, UI, Front-End Leadership, Elasticity",
-            "techs": [
-              { "name": "Angular 1.x", "url": "https://angularjs.org/" },
-              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "name": "Sass", "url": "http://sass-lang.com/" },
-              { "name": "Bootstrap 3", "url": "http://getbootstrap.com/" },
-              { "name": "Gulp", "url": "http://gulpjs.com/" },
-              { "name": "Elastic UI", "url": "http://www.elasticui.com/" }
-            ],
-            "memories": [
-              "Being a key member of crack agile team that turned this out quickly",
-              "Collaborating with cool PHP developers and Product Owner",
-              "Having fun making something borderline magical",
-              "Quickly learned Elastic Search to make it happen"
-            ]
-          },
-          {
-            "name": "SIFMA Stock Market Game Registration",
-            "url": "http://registration.smgww.org/#/",
-            "thumb": "../assets/images/screen/sifma-reg.png",
-            "what": "Monster form wizard that registers kids and teachers for a popular classroom stock market game",
-            "roles": "JS, UI/UX, Persistance, Agility",
-            "techs": [
-              { "name": "Angular 1.x", "url": "https://angularjs.org/" },
-              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "name": "Sass", "url": "http://sass-lang.com/" },
-              { "name": "Bootstrap 3", "url": "http://getbootstrap.com/" },
-              { "name": "Grunt", "url": "http://gruntjs.com/" },
-              { "name": "oAuth", "url": "http://oauth.net/" }
-            ],
-            "memories": [
-              "Maybe the most complicated thing I’ve ever helped build",
-              "So many agile iterations... relationship with client",
-              "Collaborating with many talented teammates",
-              "Persistence paid off - pretty sweet form.  <a target='_blank' href='http://registration.smgww.org/#/'>Sign up and play!</a>"
-            ]
-          },
-          {
-            "name": "Trakan: Official Music Site",
-            "url": "http://trakan.com/",
-            "thumb": "../assets/images/screen/trakan.jpg",
-            "what": "A website for an awesome local Chicago musician",
-            "roles": "Design, UI/UX, Music &amp; Lyrics, Suspect Acting Skill",
-            "techs": [
-              { "name": "ReactJS", "url": "https://facebook.github.io/react/" },
-              { "name": "ES2015 (Babel)", "url": "https://babeljs.io/docs/learn-es2015/" },
-              { "name": "HTML5", "url": "https://www.w3.org/TR/html5/" },
-              { "name": "CSS3", "url": "https://www.w3.org/TR/CSS/" },
-              { "name": "Sass", "url": "http://sass-lang.com/" },
-              { "name": "Gulp", "url": "http://gulpjs.com/" },
-              { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org" },
-              { "name": "Leaflet", "url": "http://leafletjs.com/" }
-            ],
-            "memories": [
-              "First dive into handcoding an HTML5/CSS3 site with responsive grids",
-              "How far I’ve come the past two years at Caxy, looking back on this",
-              "Successful promotion of a record that I’m really proud of",
-              "(I need to finish writing my new songs and build a new/better site)"
-            ]
-          }
-        ]
+    "sub": [
+      "JavaScript apps (with a little backend muscle, much UX/design love... &amp; a bottle of hotsauce just in case)"
+    ]
+  },
+  "featured": {
+    "headline": "Things I've built in the recent past:",
+    "projects": [{
+      "name": "Flashcarderator",
+      "status": ["Private stash for now","Ask to sit down for a look"],
+      "url": null,
+      "thumb": "../assets/images/screen/flashcarderator.jpg",
+      "what": "ReactJS app that prints 2-sided flashcards, useful for cramming new vocabulary & syntax",
+      "roles": "Learning Style, A Desire to Flux, Parallax &amp; Print Magic",
+      "techs": [{
+        "name": "ReactJS",
+        "url": "https://facebook.github.io/react/"
+      },
+        {
+          "name": "Flux Architecture",
+          "url": "https://facebook.github.io/flux/docs/overview.html"
+        },
+        {
+          "name": "Immutable.js",
+          "url": "https://facebook.github.io/immutable-js/"
+        },
+        {
+          "name": "Material-UI",
+          "url": "http://www.material-ui.com/"
+        },
+        {
+          "name": "Webpack",
+          "url": "https://webpack.js.org/"
+        }
+      ],
+      "memories": [
+        "Reminiscing back to French 101 and how we'd effectively learn new vocabulary with simple old-fashioned flashcards",
+        "Thinking flashcards might also ease the transition to ES6+ and other new tech syntax",
+        "Preparing for a trip to Lithuania and needing a few basic survival words",
+        "Coming up with a solution that accomplished all this, while learning a bit of Flux"
+      ]
     },
-    "past": {
-      "headline": "Places Where I've Built Stuff In The Past",
-      "places":
-        [
+      {
+        "name": "Vocabulator",
+        "status": ["Private stash for now","Ask to sit down for a look"],
+        "url": null,
+        "thumb": "../assets/images/screen/vocabulator.jpg",
+        "what": "Vanilla JS app that splits a text into phrases for translation. Feeds Flashcarderator",
+        "roles": "UI/UX, Scripts, Some Rusty French, Cultural Curiosity",
+        "techs": [{
+          "name": "VanillaJS/ES6",
+          "url": "http://es6-features.org"
+        },
           {
-            "name": "PointSource, LLC",
-            "url": "https://www.pointsource.com/",
-            "thumb": "../assets/images/logos/pointsource-100.png"
+            "name": "HTML5",
+            "url": "https://www.w3.org/TR/html5/"
           },
           {
-            "name": "Caxy Code Creative",
-            "url": "https://www.caxy.com/",
-            "thumb": "../assets/images/logos/caxy-100.png"
+            "name": "CSS3",
+            "url": "https://www.w3.org/TR/CSS/"
           },
           {
-            "name": "Spatial Point, LLC",
-            "url": "http://spatialpoint.com/",
-            "thumb": "../assets/images/logos/spatialpoint-100.png"
+            "name": "Sass",
+            "url": "http://sass-lang.com/"
           },
           {
-            "name": "Arc Technology Group",
-            "url": "http://www.arctg.com/",
-            "thumb": "../assets/images/logos/arc-100.png"
-          },
-          {
-            "name": "Tutor/Mentor Connection",
-            "url": "http://www.tutormentorconnection.org/",
-            "thumb": "../assets/images/logos/tmc-100.png"
-          },
-          {
-            "name": "Loyola University",
-            "url": "http://www.luc.edu/sustainability/",
-            "thumb": "../assets/images/logos/loyola-100.png"
-          },
-          {
-            "name": "Evention, LLC",
-            "url": "http://www.eventionllc.com/",
-            "thumb": "../assets/images/logos/evention-100.png"
-          },
-          {
-            "name": "Marsh, LLC (CS STARS)",
-            "url": "http://www.marshclearsight.com/",
-            "thumb": "../assets/images/logos/csstars-100.png"
-          },
-          {
-            "name": "STATS, LLC",
-            "url": "http://www.stats.com/",
-            "thumb": "../assets/images/logos/stats-100.png"
+            "name": "Yandex Translate API",
+            "url": "https://translate.yandex.com/"
           }
+        ],
+        "memories": [
+          "Trying to read emails from an old friend in France and remembering that I spoke this language once",
+          "Wouldn't it be cool to export something for my Flashcarderator to use?",
+          "Thinking, while I'm at it, maybe I could also pick up some Greek, Lithuanian, Spanish and Italian",
+          "Why not go back to basics and do the whole thing in Vanilla JS, instead of Angular or React?"
         ]
-    }
+      },
+      {
+        "name": "SIFMA Stock Market Game Search",
+        "url": "http://www.stockmarketgame.org/search.html#/search/banana",
+        "thumb": "../assets/images/screen/sifma-search.jpg",
+        "what": "Elastic search interface for a popular game that teaches kids how to use the stock market",
+        "roles": "JS, UI, Front-End Leadership, Elasticity",
+        "techs": [{
+          "name": "Angular 1.x",
+          "url": "https://angularjs.org/"
+        },
+          {
+            "name": "HTML5",
+            "url": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "CSS3",
+            "url": "https://www.w3.org/TR/CSS/"
+          },
+          {
+            "name": "Bootstrap 3",
+            "url": "http://getbootstrap.com/"
+          },
+          {
+            "name": "Elastic UI",
+            "url": "http://www.elasticui.com/"
+          }
+        ],
+        "memories": [
+          "Being a key member of crack agile team that turned this out quickly",
+          "Collaborating with amazing PHP developers and Product Owner",
+          "Having fun making something borderline magical",
+          "Quickly learned Elastic Search to make it happen"
+        ]
+      },
+      {
+        "name": "SIFMA Stock Market Game Registration",
+        "url": "http://registration.smgww.org/#/",
+        "thumb": "../assets/images/screen/sifma-reg.png",
+        "what": "Monster form wizard that registers kids and teachers for a popular classroom stock market game",
+        "roles": "JS, UI/UX, Persistance, Agility",
+        "techs": [{
+          "name": "Angular 1.x",
+          "url": "https://angularjs.org/"
+        },
+          {
+            "name": "HTML5",
+            "url": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "CSS3",
+            "url": "https://www.w3.org/TR/CSS/"
+          },
+          {
+            "name": "Bootstrap 3",
+            "url": "http://getbootstrap.com/"
+          },
+          {
+            "name": "Grunt",
+            "url": "http://gruntjs.com/"
+          },
+          {
+            "name": "oAuth",
+            "url": "http://oauth.net/"
+          }
+        ],
+        "memories": [
+          "One of the most complicated things I’ve ever helped build",
+          "So many agile iterations... relationship with client",
+          "Collaborating with many talented teammates",
+          "Persistence paid off - pretty sweet form.  <a target='_blank' href='http://registration.smgww.org/#/'>Sign up and play!</a>"
+        ]
+      },
+      {
+        "name": "Caxy's Hungry Games",
+        "url": "http://thehungrygames.io/",
+        "thumb": "../assets/images/screen/hungry.png",
+        "what": "ReactJS app that maps/reviews restaurants and bars where Caxy employees hung out",
+        "roles": "JS, UI/UX, Hunger, Initiative",
+        "techs": [{
+          "name": "ReactJS",
+          "url": "https://facebook.github.io/react/"
+        },
+          {
+            "name": "ES2015 (Babel)",
+            "url": "https://babeljs.io/docs/learn-es2015/"
+          },
+          {
+            "name": "OpenStreetMap",
+            "url": "https://www.openstreetmap.org"
+          },
+          {
+            "name": "Leaflet",
+            "url": "http://leafletjs.com/"
+          }
+        ],
+        "memories": [
+          "Collaborating with a super-cool designer on UI/UX",
+          "Having fun making something that generated sale leads",
+          "Taking marketing group’s loose ideas and bringing em to life",
+          "Quickly learning ReactJS and ES2015 to make it happen"
+        ]
+      },
+      {
+        "name": "Recipe Calculator - Server",
+        "status": ["In Progress","Ask to sit down for a look"],
+        "url": null,
+        "thumb": "../assets/images/screen/express.jpg",
+        "what": "Node/Express middleware for app I'm building to scale hotsauce recipes",
+        "roles": "Server-side JS, Database Chops, The Left Side of My Brain",
+        "techs": [{
+          "name": "Node.js",
+          "url": "https://nodejs.org/en/"
+        },
+          {
+            "name": "Express",
+            "url": "https://expressjs.com/"
+          },
+          {
+            "name": "MongoDB/NoSQL",
+            "url": "https://www.mongodb.com/"
+          },
+          {
+            "name": "Mongoose ODM",
+            "url": "http://mongoosejs.com/"
+          },
+          {
+            "name": "Handlebars",
+            "url": "http://handlebarsjs.com/"
+          }
+        ],
+        "memories": [
+          "Needing data for an app I'm building to scale my hot-sauce habit",
+          "Filling backend knowledge gaps with <a target='_blank' href='https://egghead.io/'>egghead.io</a> training",
+          "Revisiting database training from a past life",
+          "Knowing a bit more about what those backenders are up to during the day"
+        ]
+      },
+      {
+        "name": "UI Prototype Template",
+        "url": "https://github.com/Trakan/ui-prototype-template",
+        "thumb": "../assets/images/screen/prototype.jpg",
+        "what": "My personal lightweight template that I rolled for rapid UI/UX prototyping",
+        "roles": "Favorite Tools, Best Practices, Flexboxiness, Constructive Impatience",
+        "techs": [{
+          "name": "HTML5",
+          "url": "https://www.w3.org/TR/html5/"
+        },
+          {
+            "name": "CSS3",
+            "url": "https://www.w3.org/TR/CSS/"
+          },
+          {
+            "name": "Sass",
+            "url": "http://sass-lang.com/"
+          },
+          {
+            "name": "Flexbox Grid",
+            "url": "http://flexboxgrid.com/"
+          },
+          {
+            "name": "jQuery",
+            "url": "https://jquery.com/"
+          },
+          {
+            "name": "Gulp",
+            "url": "http://gulpjs.com/"
+          }
+        ],
+        "memories": [
+          "Needing a quick-start for proofs of concept &amp; test-driving tools",
+          "Realizing importance for sandboxing components prior to applying frameworks",
+          "... and prior to building out data models and APIs",
+          "Growing tired of shopping <a target='_blank' href='https://yeoman.io/'>yeoman.io</a> and configuring others' toolsets"
+        ]
+      },
+      {
+        "name": "Trakan: Official Music Site",
+        "status": ["Redesign In Progress","Coming Soon"],
+        "url": "http://trakan.com/",
+        "thumb": "../assets/images/screen/trakan.jpg",
+        "what": "Website to promote my music. 2018 version is in progress and has some cool particle animations",
+        "roles": "Design/Content, UI/UX, Transitions/Animations, Music &amp; Lyrics",
+        "techs": [{
+          "name": "HTML5",
+          "url": "https://www.w3.org/TR/html5/"
+        },
+          {
+            "name": "CSS3 magic",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
+          },
+          {
+            "name": "SVG/Vector",
+            "url": "https://www.w3.org/Graphics/SVG/About.html"
+          },
+          {
+            "name": "Sass",
+            "url": "http://sass-lang.com/"
+          },
+          {
+            "name": "Gulp",
+            "url": "http://gulpjs.com/"
+          }
+        ],
+        "memories": [
+          "First dive into handcoding an HTML5/CSS3 site with responsive grids",
+          "How far I’ve come building these things, looking back on the original site",
+          "Successful promotion of a record I wrote and produced (that I’m really proud of)",
+          "(I need to finish writing my new songs and finish the new/better version for 2018)"
+        ]
+      }
+    ]
+  },
+  "past": {
+    "headline": "Places Where I've Built Stuff In The Past",
+    "places": [{
+      "name": "PointSource, LLC",
+      "url": "https://www.pointsource.com/",
+      "thumb": "../assets/images/logos/pointsource-100.png"
+    },
+      {
+        "name": "Taylor Bruce Design Partnership",
+        "url": "http://www.taylorbruce.com/",
+        "thumb": "../assets/images/logos/tb-100.png"
+      },
+      {
+        "name": "Caxy Code Creative",
+        "url": "https://www.caxy.com/",
+        "thumb": "../assets/images/logos/caxy-100.png"
+      },
+      {
+        "name": "Spatial Point, LLC",
+        "url": "http://spatialpoint.com/",
+        "thumb": "../assets/images/logos/spatialpoint-100.png"
+      },
+      {
+        "name": "Arc Technology Group",
+        "url": "http://www.arctg.com/",
+        "thumb": "../assets/images/logos/arc-100.png"
+      },
+      {
+        "name": "Tutor/Mentor Connection",
+        "url": "http://www.tutormentorconnection.org/",
+        "thumb": "../assets/images/logos/tmc-100.png"
+      },
+      {
+        "name": "Loyola University",
+        "url": "http://www.luc.edu/sustainability/",
+        "thumb": "../assets/images/logos/loyola-100.png"
+      },
+      {
+        "name": "Evention, LLC",
+        "url": "http://www.eventionllc.com/",
+        "thumb": "../assets/images/logos/evention-100.png"
+      },
+      {
+        "name": "Marsh, LLC (CS STARS)",
+        "url": "http://www.marshclearsight.com/",
+        "thumb": "../assets/images/logos/csstars-100.png"
+      },
+      {
+        "name": "STATS, LLC",
+        "url": "http://www.stats.com/",
+        "thumb": "../assets/images/logos/stats-100.png"
+      }
+    ]
   }
-]
+}]

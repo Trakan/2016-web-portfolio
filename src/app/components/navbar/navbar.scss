@@ -7,12 +7,13 @@
     color: $client-font-color-white;
     padding: 0;
 
-    .h1 {
+    h1 {
+      color: $client-white;
       font-size: 4rem;
       letter-spacing: .05rem;
       text-transform: capitalize;
       text-align: center;
-      margin-bottom: 1.5rem;
+      margin: 1.5rem 0;
 
       @media (max-width: $screen-sm-max) {
         padding-left: 2rem;
@@ -48,10 +49,6 @@
             margin: 6rem auto 0;
           }
         }
-      }
-
-      .handwriting {
-        display: none;
       }
     }
 
@@ -140,14 +137,9 @@
   }
 }
 
-
 .affix-nav {
   .navbar-header {
     .navbar-brand {
-
-      @media (min-width: $screen-sm-min) {
-        @extend .col-sm-6;
-      }
 
       .trakan-logo {
         img {
@@ -168,28 +160,13 @@
           }
 
           @media (min-width: $screen-sm-min) {
-            @extend .col-xs-3;
             margin: 0 auto;
           }
 
         }
       }
-
-      .handwriting {
-        display: block;
-        margin-left: 1rem;
-        margin-top: 1.3rem;
-        color: $client-font-color-white;
-
-        @media (max-width: $screen-xs-max) {
-          display: none;
-        }
-      }
     }
 
-    h1 {
-      display: none;
-    }
   }
 
   .navbar-menu {
@@ -199,7 +176,6 @@
     box-shadow: 0 2px 5px -2px rgba(35,44,51,0.72);
 
     ul.main-nav {
-      // float: right; //ie
       justify-content: flex-end;
 
       li {

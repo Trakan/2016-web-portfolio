@@ -24,7 +24,7 @@ class NavbarController {
 
     /** EVENT HANDLING **/
 
-    $rootScope.$on('initMenu', (event, args) => {
+    let initMenu = $rootScope.$on('initMenu', (event, args) => {
 
       // scroll to top on route change
       let scrollThreshold = document.querySelector(menuShrinkTrigger).offsetHeight;
@@ -52,5 +52,6 @@ class NavbarController {
       $scope.$apply(); // scroll runs outside normal digest cycle
     });
 
+    $rootScope.$on('$destroy', initMenu);
   }
 }

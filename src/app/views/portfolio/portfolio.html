@@ -1,11 +1,12 @@
 <section class="view-content portfolio-content max-container">
 
   <div class="greeting">
-    <p class="h4 handwriting" ng-repeat="greeting in PVC.content.greetings" ng-bind-html="greeting"></p>
+    <h2 class="handwriting text-center yellow" ng-repeat="greeting in PVC.content.greetings.main" ng-bind-html="greeting"></h2>
+    <h5 class="handwriting text-center yellow" ng-repeat="greeting in PVC.content.greetings.sub" ng-bind-html="greeting"></h5>
   </div>
 
   <!-- FEATURED PORTFOLIO PIECES -->
-  <h1 class="handwriting" ng-bind="PVC.content.featured.headline"></h1>
+  <h3 class="handwriting text-center" ng-bind="PVC.content.featured.headline"></h3>
 
   <div class="view-wrap">
     <article class="view-item portfolio-piece" ng-repeat="item in PVC.content.featured.projects">
@@ -15,8 +16,11 @@
         <a ng-href="{{item.url}}" target="_blank">
           <div class="portfolio-thumb">
             <img alt="{{item.name}}" ng-src="{{item.thumb}}"/>
+            <div class="status">
+              <p ng-repeat="status in item.status" ng-bind-html="status"></p>
+            </div>
             <!-- project name -->
-            <h2 ng-bind="item.name"></h2>
+            <h3 ng-bind="item.name"></h3>
           </div>
         </a>
 
@@ -55,7 +59,7 @@
   </div>
 
   <!-- LOGOS OF PAST JOBS-->
-  <p class="h1 handwriting" ng-bind="PVC.content.past.headline"></p>
+  <p class="h2 text-center handwriting" ng-bind="PVC.content.past.headline"></p>
   <div class="view-wrap portfolio-wrap old-logos">
     <a ng-repeat="place in PVC.content.past.places" ng-href="{{place.url}}" target="_blank">
       <img alt="{{place.name}}" ng-src="{{place.thumb}}"/>

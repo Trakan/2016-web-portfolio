@@ -16,15 +16,15 @@
           },
           "roles": [
             "Conceived and delivered a modular, highly-customized form interface (UI) using AngularJS",
-            "Flexibly adapted to client-requested UX, design and data model needs, during year of agile iterations",
+            "Flexibly implemented client-requested UX, design and data model changes, during year of agile iterations",
             "Helped company earn a multi-year contract extension through high-quality deliveries",
-            "Front-end leadership and management contributions on a cross-disciplinary team"
+            "Front-end leadership and management contributions on a cross-disciplinary team:"
           ],
           "subroles": [
             "Collaborated with design leads on theming and UX; CSS/Sass expertise to bring designs to life",
             "Worked with backend developers to flush out and model RESTful APIs",
             "Consumed JSON endpoints for concurrent users, handling asynchronous responses with promises",
-            "Onboarded and empowered other front-end developers when the project ramped up",
+            "Onboarded and empowered new front-end teammates when the project ramped up",
             "Oversaw growth of client-side unit test coverage to minimize regressions",
             "Supervised Git repository for UI’s development branch, providing code reviews and merging pull requests",
             "Managed continuous integration to automate builds/deployments to the testing environment",
@@ -45,7 +45,7 @@
             "Cutting edge JavaScript (ES5, ES6/ES2015)",
             "Demonstrated proficiency with CSS and theming techniques; Worked closely with designer/UX leads",
             "Promoted to front-end leadership after first performance review.",
-            "Last app I worked on was a finalist for an Acquia Engage Award, in the 'Decoupled Drupal' category"
+            "Final project was nominated for an Acquia Engage Award, in the 'Decoupled Drupal' category"
           ]
         },
         {
@@ -67,7 +67,7 @@
             "url": "http://www.arctg.com/"
           },
           "roles": [
-            "Emerged as front-end specialist on a waterfall team, providing custom jQuery components, Joomla 2.x templates, and customized administration interfaces for several MySQL back-ends ",
+            "Emerged as team’s front-end specialist, providing custom jQuery components and CMS templates",
             "Took ownership of content inventories and helped coordinate front-end efforts with project managers and designers",
             "Authored specifications and performed client-facing tasks",
             "Through our team's efforts, the company reported a 40% profit growth, best in company history"
@@ -126,23 +126,23 @@
       "items": [
         {
           "subhead":"JavaScript",
-          "desc": "ECMAScript (ES5, ES6, Babel); MV* frameworks (AngularJS 1.x); Libraries (ReactJS/Flux, jQuery 2.x, Lodash); Mobile hybrid (Ionic 1.x)"
+          "desc": "ECMAScript (ES5, ES6, Babel); Libraries (ReactJS/Flux, jQuery 2.x, Underscore, Lodash); MV* frameworks (AngularJS 1.x); Mobile hybrid (Ionic 1.x)"
         },
         {
           "subhead":"HTML5/CSS3",
-          "desc": "Hand-coded HTML5/CSS3; Adaptive layouts; Responsive grids; Precompilers (Sass, Less); UI frameworks (Bootstrap 3.x, Material Design, Foundation); SVG; CSS transitions/animations"
+          "desc": "Hand-coded HTML5/CSS3; Adaptive layouts; Responsive grids; Precompilers (Sass, Less); UI frameworks (Bootstrap 3.x, Material Design, Foundation); Templating (Handlebars); SVG; CSS transitions/animations"
         },
         {
           "subhead":"Web Services (Front-End Support)",
           "desc": "API planning/design; Endpoint consumption; Asynchronous requests/responses (promises, AJAX, callbacks); JSON; REST; Client-side authentication (JWT); Concurrent user support"
         },
         {
-          "subhead":"Testing, Code Quality",
-          "desc": "Unit testing (Karma, Mocha/Chai/Sinon); ESLint; W3C validators; Cross-browser; Continuous integration (Jenkins)"
+          "subhead":"Fullstack/Databases",
+          "desc": "Middleware(Node.js, Express); SQL, MySQL 5.x;  NoSQL (MongoDB, Mongoose);  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema design;  Real-time data"
         },
         {
-          "subhead":"Database Familiarity",
-          "desc": "SQL, MySQL 5.x;  NoSQL (MongoDB);  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema design;  Real-time data"
+          "subhead":"Testing/Code Quality",
+          "desc": "Unit testing (Karma, Mocha/Chai/Sinon); ESLint; W3C validators; Cross-browser; Continuous integration (Jenkins)"
         },
         {
           "subhead":"Project Tools/Environment",
@@ -160,19 +160,19 @@
       "items": [
         {
           "subhead": "Learning",
-          "desc": "Knows where to look for answers and when to ask questions; Able to quickly adapt new technologies and client requirements in  agency-paced environments; Humbled by the industry – always excited to learn more"
+          "desc": "Knows where to look for answers and when to ask questions; Able to quickly adapt new technologies and client requirements; Humbled by the industry – always excited to learn more"
         },
         {
           "subhead": "Teamwork/Agile",
-          "desc": "Self-monitoring if required, but an agile team-player at heart; Just as happy with the assist as I am scoring the goal; Prizes mutual respect, trust, collaboration, and the rare 'jelled team'; Open-minded and never the 'derailer' in the room"
+          "desc": "Self-monitoring if required, but an agile team-player at heart; Just as happy with the assist as I am scoring the goal; Prizes mutual respect, trust, collaboration, and the rare 'jelled team'; Open to new ideas and never the 'derailer' in the room"
         },
         {
           "subhead": "Communication",
-          "desc": "Shares information and communicates in timely manner so others aren’t blocked; Recently called ‘thorough’ in my detail orientation and preparation; Not afraid to raise hand when I feel something is wrong, lost, or forgotten"
+          "desc": "Shares information and communicates in timely manner so others aren’t blocked; Recently called 'thorough' in my detail orientation and preparation; Not afraid to raise hand when I feel something is wrong, lost, offtrack or forgotten"
         },
         {
           "subhead": "Leadership",
-          "desc": "Graduate degree in Education; Experience managing front-end processes; Experience consulting, training, onboarding and mentoring; Reflective with a developing leadership philosophy; Strong believer in ‘lead by example’"
+          "desc": "Graduate degree in Education; Experienced managing front-end processes; Experienced consulting, training, onboarding and mentoring; Reflective with a developing leadership philosophy; Strong believer in ‘lead by example’"
         }
       ]
     },
