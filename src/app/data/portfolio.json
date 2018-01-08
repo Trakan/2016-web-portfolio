@@ -11,7 +11,7 @@
     "headline": "Things I've built in the recent past:",
     "projects": [{
       "name": "Flashcarderator",
-      "status": ["Private stash for now","Ask to sit down for a look"],
+      "status": ["Private stash","Contact to sit down for a look"],
       "url": null,
       "thumb": "../assets/images/screen/flashcarderator.jpg",
       "what": "ReactJS app that prints 2-sided flashcards, useful for cramming new vocabulary & syntax",
@@ -46,7 +46,7 @@
     },
       {
         "name": "Vocabulator",
-        "status": ["Private stash for now","Ask to sit down for a look"],
+        "status": ["Private stash","Contact to sit down for a look"],
         "url": null,
         "thumb": "../assets/images/screen/vocabulator.jpg",
         "what": "Vanilla JS app that splits a text into phrases for translation. Feeds Flashcarderator",
@@ -148,7 +148,7 @@
           "One of the most complicated things I’ve ever helped build",
           "So many agile iterations... relationship with client",
           "Collaborating with many talented teammates",
-          "Persistence paid off - pretty sweet form.  <a target='_blank' href='http://registration.smgww.org/#/'>Sign up and play!</a>"
+          "Persistence paid off - pretty sweet form I think.  <a target='_blank' href='http://registration.smgww.org/#/'>Sign up and play!</a>"
         ]
       },
       {
@@ -183,11 +183,11 @@
       },
       {
         "name": "Recipe Calculator - Server",
-        "status": ["In Progress","Ask to sit down for a look"],
+        "status": ["Front-end In Progress","Contact to sit down and get a preview"],
         "url": null,
         "thumb": "../assets/images/screen/express.jpg",
         "what": "Node/Express middleware for app I'm building to scale hotsauce recipes",
-        "roles": "Server-side JS, Database Chops, The Left Side of My Brain",
+        "roles": "Server-Side JS, Database Chops, The Left Side of My Brain",
         "techs": [{
           "name": "Node.js",
           "url": "https://nodejs.org/en/"
@@ -220,7 +220,7 @@
         "name": "UI Prototype Template",
         "url": "https://github.com/Trakan/ui-prototype-template",
         "thumb": "../assets/images/screen/prototype.jpg",
-        "what": "My personal lightweight template that I rolled for rapid UI/UX prototyping",
+        "what": "My personal lightweight/flexboxed template that I rolled for rapid UI/UX prototyping",
         "roles": "Favorite Tools, Best Practices, Flexboxiness, Constructive Impatience",
         "techs": [{
           "name": "HTML5",
@@ -251,7 +251,8 @@
           "Needing a quick-start for proofs of concept &amp; test-driving tools",
           "Realizing importance for sandboxing components prior to applying frameworks",
           "... and prior to building out data models and APIs",
-          "Growing tired of shopping <a target='_blank' href='https://yeoman.io/'>yeoman.io</a> and configuring others' toolsets"
+          "Getting the footer to finally stick to the bottom of the layout in a responsive flexboxed way",
+          "Growing tired of shopping <a target='_blank' href='https://yeoman.io/'>yeoman.io</a>, and being slowed-down configuring others' environments"
         ]
       },
       {
@@ -259,7 +260,7 @@
         "status": ["Redesign In Progress","Coming Soon"],
         "url": "http://trakan.com/",
         "thumb": "../assets/images/screen/trakan.jpg",
-        "what": "Website to promote my music. 2018 version is in progress and has some cool particle animations",
+        "what": "Website to promote my music. (2018 version is in progress and has some cool particle animations.  This thumb is a preview of what's 'coming soon')",
         "roles": "Design/Content, UI/UX, Transitions/Animations, Music &amp; Lyrics",
         "techs": [{
           "name": "HTML5",
@@ -270,7 +271,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
           },
           {
-            "name": "SVG/Vector",
+            "name": "SVG/Vectors",
             "url": "https://www.w3.org/Graphics/SVG/About.html"
           },
           {
@@ -283,10 +284,10 @@
           }
         ],
         "memories": [
-          "First dive into handcoding an HTML5/CSS3 site with responsive grids",
-          "How far I’ve come building these things, looking back on the original site",
-          "Successful promotion of a record I wrote and produced (that I’m really proud of)",
-          "(I need to finish writing my new songs and finish the new/better version for 2018)"
+          "Old site represents my first dive into handcoding an HTML5/CSS3 site with responsive grids",
+          "Redesign (in progress) helping me reflect on how far I’ve come building these things, looking back at what's hosted currently",
+          "Successful promotion of a couple records I wrote and produced (that I’m really proud of)",
+          "(I need to finish writing my new songs and finish this new/slicker version here in 2018)"
         ]
       }
     ]

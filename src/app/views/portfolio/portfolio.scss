@@ -39,7 +39,7 @@
 
       .portfolio-thumb {
         position: relative;
-        height: 17.8rem;
+        min-height: 17.8rem;
 
         h3 {
           margin-top: .5rem;
@@ -59,12 +59,15 @@
 
           p {
             color: $client-red;
-            text-shadow: -1px 0 $client-white, 0 1px $client-white, 1px 0 $client-white, 0 -1px $client-white;
-            font-size: 1.6rem;
-            line-height: 1.7rem;
+            text-shadow: 0 0 1rem $client-white, 0 0 1rem $client-white, 0 0 1rem $client-white ;
+
+            //text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                         // 0px -5px 35px rgba(255,255,255,0.3);
+            font-size: $font-lg;
+            line-height: 2.4rem;
             font-weight: 700;
             margin: 0;
-            opacity: .9;
+            //opacity: .9;
           }
         }
 
@@ -80,6 +83,10 @@
             @include transition-fade;
             opacity: 1;
           }
+        }
+
+        &.no-link:hover {
+          cursor: not-allowed;
         }
       }
 

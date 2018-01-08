@@ -6,7 +6,6 @@
     "experience": {
       "header": "",
       "items": [
-
         {
           "company": {
             "name": "PointSource, LLC",
@@ -21,13 +20,13 @@
             "Front-end leadership and management contributions on a cross-disciplinary team:"
           ],
           "subroles": [
-            "Collaborated with design leads on theming and UX; CSS/Sass expertise to bring designs to life",
+            "Collaborated with design leads on theming and user experience (UX); CSS/Sass expertise to bring designs to life",
             "Worked with backend developers to flush out and model RESTful APIs",
             "Consumed JSON endpoints for concurrent users, handling asynchronous responses with promises",
             "Onboarded and empowered new front-end teammates when the project ramped up",
             "Oversaw growth of client-side unit test coverage to minimize regressions",
-            "Supervised Git repository for UI’s development branch, providing code reviews and merging pull requests",
-            "Managed continuous integration to automate builds/deployments to the testing environment",
+            "Supervised Git repository for the UI development branch, providing code reviews and merging pull requests",
+            "Managed continuous integration, to automate builds/deployments to the testing environment",
             "Prioritized daily communication with offsite project management and offshore QA team, to help unblock teammates, monitor acceptance criteria, and facilitate division of labor",
             "Proposed and influenced agile methodologies, improving sprint planning and estimates",
             "Drafted flow-chart for new employee deck, visualizing how remote offices might improve collaborations"
@@ -63,7 +62,7 @@
           "company": {
             "name": "Arc Technology Group",
             "dates": "2011-2012",
-            "title": "Web Developer (Front-End)",
+            "title": "Web Developer (Content Management Systems - CMS)",
             "url": "http://www.arctg.com/"
           },
           "roles": [
@@ -77,7 +76,7 @@
           "company": {
             "name": "Tutor/Mentor Connection",
             "dates": "2008 - 2011",
-            "title": "GIS Specialist",
+            "title": "Mapping Technologies, Non-Profit - NPO",
             "url": "http://www.tutormentorconnection.org/"
           },
           "roles": [
@@ -126,7 +125,7 @@
       "items": [
         {
           "subhead":"JavaScript",
-          "desc": "ECMAScript (ES5, ES6, Babel); Libraries (ReactJS/Flux, jQuery 2.x, Underscore, Lodash); MV* frameworks (AngularJS 1.x); Mobile hybrid (Ionic 1.x)"
+          "desc": "ECMAScript (ES5, ES6, Babel); Libraries (ReactJS/Flux/Redux, jQuery 2.x, Underscore, Lodash); MV* frameworks (AngularJS 1.x); Mobile hybrid (Ionic 1.x)"
         },
         {
           "subhead":"HTML5/CSS3",
@@ -134,11 +133,11 @@
         },
         {
           "subhead":"Web Services (Front-End Support)",
-          "desc": "API planning/design; Endpoint consumption; Asynchronous requests/responses (promises, AJAX, callbacks); JSON; REST; Client-side authentication (JWT); Concurrent user support"
+          "desc": "API planning/design; Endpoint consumption (REST); Asynchronous requests/responses (promises, AJAX, callbacks); JSON, XML; Client-side authentication (JWT); Concurrent user support, Mapping APIs (Google, Bing, OpenStreetMap)"
         },
         {
           "subhead":"Fullstack/Databases",
-          "desc": "Middleware(Node.js, Express); SQL, MySQL 5.x;  NoSQL (MongoDB, Mongoose);  SQL Server 2012;  Oracle 9i;  PL/SQL;  Schema design;  Real-time data"
+          "desc": "Middleware (Node.js, Express); SQL, MySQL 5.x; NoSQL (MongoDB, Mongoose ODM); SQL Server 2012; Oracle 9i; PL/SQL; Schema design; Real-time data; GIS/Geodata (ESRI)"
         },
         {
           "subhead":"Testing/Code Quality",
@@ -146,11 +145,11 @@
         },
         {
           "subhead":"Project Tools/Environment",
-          "desc": "Task runners/bundlers (Gulp, Grunt, webpack); Version control (Git, GitHub); Package managers (Bower, npm)"
+          "desc": "Task runners/bundlers (Gulp, Grunt, webpack); Version control (Git, GitHub); Package managers (npm, Bower, Yarn)"
         },
         {
           "subhead":"Design/Creative",
-          "desc": "UX ('Co-Design'); Prototypes; Adobe CC 2015 (Photoshop, Illustrator); Marketing materials; Music/video production"
+          "desc": "UX ('Co-Design'); UI Prototypes; Adobe CC 2015 (Photoshop, Illustrator); Marketing/branding materials; Music/video production"
         }
       ]
     },
@@ -160,7 +159,7 @@
       "items": [
         {
           "subhead": "Learning",
-          "desc": "Knows where to look for answers and when to ask questions; Able to quickly adapt new technologies and client requirements; Humbled by the industry – always excited to learn more"
+          "desc": "Knows where to look for answers and when to ask questions; Able to quickly adapt new technologies and client requirements; Humbled by the industry – always anxious to learn more"
         },
         {
           "subhead": "Teamwork/Agile",
@@ -172,7 +171,7 @@
         },
         {
           "subhead": "Leadership",
-          "desc": "Graduate degree in Education; Experienced managing front-end processes; Experienced consulting, training, onboarding and mentoring; Reflective with a developing leadership philosophy; Strong believer in ‘lead by example’"
+          "desc": "Graduate degree in Education; Experienced with managing front-end processes; Experienced with consulting, onboarding and mentoring; Reflective with a developing leadership philosophy; Strong believer in 'lead by example'"
         }
       ]
     },
@@ -181,7 +180,7 @@
       "header": "Multimedia &amp; Marketing",
       "items": [
         {
-          "desc": "Independently wrote, produced, designed and promoted two full-length CDs, released in 2007 and 2012",
+          "desc": "Independently wrote, produced, designed and promoted two full-length records, self-released in 2007 and 2012",
           "experience": [
             "<strong>Technology:</strong>  Sound Production;  Audio Engineering/Mastering;  Video Production",
             "<strong>Design:</strong>  Marketing Materials (Logos, Posters, Press Releases);  CD Production Templates",

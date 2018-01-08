@@ -14,7 +14,7 @@
 
         <!-- screenshot -->
         <a ng-href="{{item.url}}" target="_blank">
-          <div class="portfolio-thumb">
+          <div class="portfolio-thumb" ng-class="{'no-link': item.url==null}">
             <img alt="{{item.name}}" ng-src="{{item.thumb}}"/>
             <div class="status">
               <p ng-repeat="status in item.status" ng-bind-html="status"></p>
