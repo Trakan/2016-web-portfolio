@@ -43,7 +43,7 @@
             "Two years building enterprise applications and marketing sites with AngularJS, ReactJS and related front-end technologies",
             "Cutting edge JavaScript (ES5, ES6/ES2015)",
             "Demonstrated proficiency with CSS and theming techniques; Worked closely with designer/UX leads",
-            "Promoted to front-end leadership after first performance review.",
+            "Promoted to front-end leadership after first performance review",
             "Final project was nominated for an Acquia Engage Award, in the 'Decoupled Drupal' category"
           ]
         },
@@ -141,7 +141,7 @@
         },
         {
           "subhead":"Testing/Code Quality",
-          "desc": "Unit testing (Karma, Mocha/Chai/Sinon); ESLint; W3C validators; Cross-browser; Continuous integration (Jenkins)"
+          "desc": "Unit testing (Karma, Mocha/Chai/Sinon); Continuous integration (Jenkins); Cross-browser (VirtualBox for IE); ESLint; W3C validators"
         },
         {
           "subhead":"Project Tools/Environment",
