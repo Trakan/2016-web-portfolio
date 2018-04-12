@@ -14,13 +14,13 @@
             "url": "https://www.pointsource.com/"
           },
           "roles": [
-            "Conceived and delivered a modular, highly-customized form interface (UI) using AngularJS",
-            "Flexibly implemented client-requested UX, design and data model changes, during year of agile iterations",
-            "Helped company earn a multi-year contract extension through high-quality deliveries",
-            "Front-end leadership and management contributions on a cross-disciplinary team:"
+            "Key front-end member of team that delivered highly-customized digital transformations using AngularJS",
+            "Flexibly adapted to client-requested UI/UX and data model changes, throughout year of agile iterations",
+            "Helped company earn a multi-year contract extension via consistently high-quality deliveries",
+            "Provided front-end leadership and management on a cross-disciplinary team:"
           ],
           "subroles": [
-            "Collaborated with design leads on theming and user experience (UX); CSS/Sass expertise to bring designs to life",
+            "Collaborated with design leads on theming and user experience (UX)",
             "Worked with backend developers to flush out and model RESTful APIs",
             "Consumed JSON endpoints for concurrent users, handling asynchronous responses with promises",
             "Onboarded and empowered new front-end teammates when the project ramped up",
@@ -34,6 +34,17 @@
         },
         {
           "company": {
+            "name": "Taylor Bruce Design Partnership",
+            "dates": "2016",
+            "title": "Contractor (JavaScript Developer)",
+            "url": "http://www.taylorbruce.com/"
+          },
+          "roles": [
+            "Completed contract, helping studio’s developers push a project with tight deadline across the finish line"
+          ]
+        },
+        {
+          "company": {
             "name": "Caxy Interactive",
             "dates": "2014 - 2016",
             "title": "Senior Front-End Developer (JavaScript Web Applications)",
@@ -42,7 +53,7 @@
           "roles": [
             "Two years building enterprise applications and marketing sites with AngularJS, ReactJS and related front-end technologies",
             "Cutting edge JavaScript (ES5, ES6/ES2015)",
-            "Demonstrated proficiency with CSS and theming techniques; Worked closely with designer/UX leads",
+            "Worked closely with designer/UX leads; Demonstrated expertise with CSS and theming techniques",
             "Promoted to front-end leadership after first performance review",
             "Final project was nominated for an Acquia Engage Award, in the 'Decoupled Drupal' category"
           ]
@@ -125,15 +136,15 @@
       "items": [
         {
           "subhead":"JavaScript",
-          "desc": "ECMAScript (ES5, ES6, Babel); Libraries (ReactJS/Flux/Redux, jQuery 2.x, Underscore, Lodash); MV* frameworks (AngularJS 1.x); Mobile hybrid (Ionic 1.x)"
+          "desc": "ECMAScript (ES5, ES2015/ES6+, Babel); Libraries (ReactJS/Flux/Redux, Polymer 2.0, jQuery, Lodash/Underscore, Immutable); MV* frameworks (AngularJS 5, 1.x); TypeScript, Mobile (Ionic 1.x, Cordova)"
         },
         {
-          "subhead":"HTML5/CSS3",
-          "desc": "Hand-coded HTML5/CSS3; Adaptive layouts; Responsive grids; Precompilers (Sass, Less); UI frameworks (Bootstrap 3.x, Material Design, Foundation); Templating (Handlebars); SVG; CSS transitions/animations"
+          "subhead":"HTML/CSS",
+          "desc": "Hand-coded semantic HTML5; CSS3; Precompilers (Sass, Less); Adaptive layouts; Responsive grids; CSS Modules; Atomic design; UI Frameworks (Bootstrap 3.x, Material Design, Foundation); Templating (Handlebars); SVG; CSS transitions/animations; SEO optimization; Accessibility (WCAG 2.0, ARIA); Cross-browser support"
         },
         {
           "subhead":"Web Services (Front-End Support)",
-          "desc": "API planning/design; Endpoint consumption (REST); Asynchronous requests/responses (promises, AJAX, callbacks); JSON, XML; Client-side authentication (JWT); Concurrent user support, Mapping APIs (Google, Bing, OpenStreetMap)"
+          "desc": "API planning/design; Endpoint consumption (REST); Asynchronous requests/responses (promises, observables, AJAX, callbacks); JSON/JSONP, XML; Client-side authentication (JWT); Concurrent user support, Mapping APIs (Google, Bing, OpenStreetMap)"
         },
         {
           "subhead":"Fullstack/Databases",
@@ -141,15 +152,31 @@
         },
         {
           "subhead":"Testing/Code Quality",
-          "desc": "Unit testing (Karma, Mocha/Chai/Sinon); Continuous integration (Jenkins); Cross-browser (VirtualBox for IE); ESLint; W3C validators"
+          "desc": "Unit testing (Jest, Karma, Mocha/Chai/Sinon); UI Testing (Protractor/Selenium, Storybook); Continuous integration (Jenkins); Cross-browser (VirtualBox for IE); ESLint; Browser Debugging; W3C validators"
         },
         {
           "subhead":"Project Tools/Environment",
-          "desc": "Task runners/bundlers (Gulp, Grunt, webpack); Version control (Git, GitHub); Package managers (npm, Bower, Yarn)"
+          "desc": "Task runners/bundlers (Gulp, Grunt, webpack, Angular CLI); Version control (Git, GitHub); Package managers (npm, Bower, Yarn)"
         },
         {
           "subhead":"Design/Creative",
-          "desc": "UX ('Co-Design'); UI Prototypes; Adobe CC 2015 (Photoshop, Illustrator); Marketing/branding materials; Music/video production"
+          "desc": "UX ('Co-Design'); UI Prototypes; Adobe CC 2015 (Photoshop, Illustrator); SVG; Marketing/branding materials; Music/video production"
+        },
+        {
+          "subhead":"Geographic Information Systems (GIS)",
+          "desc": "ESRI ArcGIS 10; ArcObjects with VBA; Bing Maps API; Google Maps API"
+        },
+        {
+          "subhead":"Open-Source CMS",
+          "desc": "Drupal 7/8, Joomla 2.x"
+        },
+        {
+          "subhead":"(A Little) Server-Side Scripting Experience",
+          "desc": "PHP 5.x, ASP"
+        },
+        {
+          "subhead":"(A Bit of) Object Oriented/OOP",
+          "desc": "C#, Java"
         }
       ]
     },
@@ -159,7 +186,7 @@
       "items": [
         {
           "subhead": "Learning",
-          "desc": "Knows where to look for answers and when to ask questions; Able to quickly adapt new technologies and client requirements; Humbled by the industry – always anxious to learn more"
+          "desc": "Knows where to look for answers and when to ask questions; Proven ability to quickly adapt new technologies and client requirements; Humbled by the industry – always anxious to learn more"
         },
         {
           "subhead": "Teamwork/Agile",
@@ -167,11 +194,11 @@
         },
         {
           "subhead": "Communication",
-          "desc": "Shares information and communicates in timely manner so others aren’t blocked; Recently called 'thorough' in my detail orientation and preparation; Not afraid to raise hand when I feel something is wrong, lost, offtrack or forgotten"
+          "desc": "Shares information and communicates in a timely manner so others aren’t blocked; Recently called 'thorough' in my detail orientation and preparation; Not afraid to raise hand when I feel something is lost, offtrack or forgotten"
         },
         {
           "subhead": "Leadership",
-          "desc": "Graduate degree in Education; Experienced with managing front-end processes; Experienced with consulting, onboarding and mentoring; Reflective with a developing leadership philosophy; Strong believer in 'lead by example'"
+          "desc": "Graduate degree in Education (research focused on diversity of learning/communication styles); Reflective with a developing leadership philosophy; Strong believer in 'lead by example'; Experienced with managing front-end processes, and with onboarding/mentoring teammates; Client-facing roles when required"
         }
       ]
     },
